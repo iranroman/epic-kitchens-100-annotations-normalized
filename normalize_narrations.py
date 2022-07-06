@@ -43,6 +43,8 @@ noun_classes_dict['the fire'] = noun_classes_dict.pop('hob')
 noun_classes_dict['liquid:washing'].append('liquid:washing:op') # typo not addressed by noun classes
 verb_classes_dict = get_class_dict(verb_classes_file)
 verb_classes_dict['carry'].append('bring-into')
+verb_classes_dict['drain'] = verb_classes_dict.pop('filter')
+verb_classes_dict['put'] = [*verb_classes_dict['put'],*verb_classes_dict.pop('insert')]
                      
 # load annotation file
 with open(ann_file, newline='') as csvfile:
@@ -54,7 +56,7 @@ first = int(sys.argv[1])
 
 subs_dict = {}
 # main loop
-for i, l in enumerate(annotations[first:148],start=first):
+for i, l in enumerate(annotations[first:885],start=first):
     print(i, l[2])
     print(l[8])
     l[8] = l[8].replace('.','')
@@ -68,6 +70,8 @@ for i, l in enumerate(annotations[first:148],start=first):
 
     # remove typos
     l[8] = l[8].replace(' washing op', '')
+    l[8] = l[8].replace(' in to ', ' in ')
+    l[8] = l[8].replace(' pate', ' plate')
 
     if l[8] not in subs_dict:
         raw_action = l[8]
@@ -138,12 +142,14 @@ for i, l in enumerate(annotations[first:148],start=first):
         l[8] = ' '.join(k for k, _ in itertools.groupby(l[8].split()))
         subs_dict[raw_action]=l[8]
         print(subs_dict[raw_action])
-        if subs_dict[raw_action] == 'add water into bowl':
+        if subs_dict[raw_action] == 'blahblah add water into bowl':
             print(raw_action)
             input()
         try:
-            pass
-            #input()
+            if subs_dict[raw_action] == raw_action:
+                continue
+            print('\n')
+            input()
         except KeyboardInterrupt:
             actions = list(set(list(subs_dict.values())))
             actions.sort()
@@ -154,7 +160,12 @@ for i, l in enumerate(annotations[first:148],start=first):
     else:
         l[8] = subs_dict[l[8]]
         print(l[8]+'\n')
-    #input()
+actions = list(set(list(subs_dict.values())))
+actions.sort()
+for a in actions:
+    print(''.join([w+'\t\t' for w in a.split()]))
+print(len(set(list(subs_dict.keys()))), len(actions))
+input()
 annotations.insert(0,header)
 with open("EPIC_100_validation_normalized.csv", "wt") as fp:
     writer = csv.writer(fp, delimiter=",")
@@ -171,4 +182,3 @@ for a in actions_counted:
     #input()
     #print(list(subs_dict.values()).count(a),''.join([w+'\t\t' for w in a.split()]))
 print(len(set(list(subs_dict.keys()))), len(actions))
-input()
