@@ -40,6 +40,8 @@ noun_classes_dict['towel:paper'] = noun_classes_dict.pop('towel:kitchen')
 noun_classes_dict['eggplant'] = noun_classes_dict.pop('aubergine')
 noun_classes_dict['zucchini'] = noun_classes_dict.pop('courgette')
 noun_classes_dict['the fire'] = noun_classes_dict.pop('hob')
+noun_classes_dict['garbage'] = noun_classes_dict.pop('rubbish')
+noun_classes_dict['shaker:salt'] = noun_classes_dict.pop('cellar:salt')
 noun_classes_dict['liquid:washing'].append('liquid:washing:op') # typo not addressed by noun classes
 verb_classes_dict = get_class_dict(verb_classes_file)
 verb_classes_dict['carry'].append('bring-into')
@@ -56,7 +58,7 @@ first = int(sys.argv[1])
 
 subs_dict = {}
 # main loop
-for i, l in enumerate(annotations[first:2608],start=first):
+for i, l in enumerate(annotations[first:3278],start=first):
     print(i, l[2])
     print(l[8])
     l[8] = l[8].replace('.','')
@@ -74,6 +76,10 @@ for i, l in enumerate(annotations[first:2608],start=first):
 
     # help with plurals
     l[8] = l[8].replace('patties', 'pattys')
+    l[8] = l[8].replace('leaves', 'leafs')
+    l[8] = l[8].replace('knives', 'knifes')
+    l[8] = l[8].replace('blueberries', 'blueberrys')
+    l[8] = l[8].replace('berries', 'berrys')
 
     # remove slow cooker bowl and pan
     l[8] = l[8].replace('slow cooker bowl', 'cooker bowl')
