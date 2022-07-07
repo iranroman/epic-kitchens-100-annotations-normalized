@@ -56,7 +56,7 @@ first = int(sys.argv[1])
 
 subs_dict = {}
 # main loop
-for i, l in enumerate(annotations[first:885],start=first):
+for i, l in enumerate(annotations[first:1334],start=first):
     print(i, l[2])
     print(l[8])
     l[8] = l[8].replace('.','')
@@ -67,6 +67,10 @@ for i, l in enumerate(annotations[first:885],start=first):
     words_no_of = [word for i,word in enumerate(words[:-1]) if word!='of' and words[i+1]!='the']
     words_no_of.append(words[-1])
     l[8] = ' '.join(words_no_of)
+
+    # remove types of oil
+    l[8] = l[8].replace('olive oil', 'oil')
+    l[8] = l[8].replace(' olive', '') if 'olive' in l[8] and 'oil' in l[8] else l[8]
 
     # remove typos
     l[8] = l[8].replace(' washing op', '')
