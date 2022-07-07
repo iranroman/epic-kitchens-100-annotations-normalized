@@ -2035,153 +2035,153 @@ P04_33_6,P04,P04_33,00:00:33.060,00:00:46.68,00:00:48.78,2800,2926,turn off slow
 P04_33_7,P04,P04_33,00:00:52.329,00:00:48.88,00:00:56.00,2932,3360,attach in kettle,plug-in,64,kettle,44,['kettle'],[44]
 P04_33_8,P04,P04_33,00:00:56.089,00:00:56.55,00:00:59.56,3393,3573,close box,close,4,tupperware,23,['tupperware'],[23]
 P04_33_9,P04,P04_33,00:00:59.159,00:00:59.66,00:01:02.41,3579,3744,put box into freezer,put-into,5,tupperware,23,"['tupperware', 'freezer']","[23, 113]"
-P05_07_0,P05,P05_07,00:00:01.000,00:00:01.98,00:00:04.35,118,261,rinse hands,rinse,2,hand,11,['hand'],[11]
+P05_07_0,P05,P05_07,00:00:01.000,00:00:01.98,00:00:04.35,118,261,wash hands,rinse,2,hand,11,['hand'],[11]
 P05_07_1,P05,P05_07,00:00:06.000,00:00:07.10,00:00:08.54,426,512,open cupboard,open,3,cupboard,3,['cupboard'],[3]
-P05_07_10,P05,P05_07,00:00:34.000,00:00:33.15,00:00:34.66,1989,2079,place oil bottle on refrigerator,place-on,1,bottle:oil,15,"['bottle:oil', 'refrigerator']","[15, 12]"
+P05_07_10,P05,P05_07,00:00:34.000,00:00:33.15,00:00:34.66,1989,2079,place bottle on fridge,place-on,1,bottle:oil,15,"['bottle:oil', 'refrigerator']","[15, 12]"
 P05_07_100,P05,P05_07,00:12:30.000,00:12:29.39,00:12:31.73,44963,45103,uncover pot,uncover,83,pot,29,['pot'],[29]
 P05_07_101,P05,P05_07,00:12:35.000,00:12:35.16,00:12:37.07,45309,45424,take pot,take,0,pot,29,['pot'],[29]
 P05_07_102,P05,P05_07,00:12:39.000,00:12:41.25,00:12:44.00,45675,45840,pour soup into bowl,pour-into,9,soup,126,"['soup', 'bowl']","[126, 7]"
-P05_07_103,P05,P05_07,00:12:46.000,00:12:45.34,00:12:46.87,45920,46012,take wooden spoon,take,0,spoon:wooden,1,['spoon:wooden'],[1]
+P05_07_103,P05,P05_07,00:12:46.000,00:12:45.34,00:12:46.87,45920,46012,take spoon,take,0,spoon:wooden,1,['spoon:wooden'],[1]
 P05_07_104,P05,P05_07,00:12:49.000,00:12:49.42,00:12:59.92,46165,46795,serve soup in bowl,serve-in,82,soup,126,"['soup', 'bowl']","[126, 7]"
-P05_07_105,P05,P05_07,00:13:06.000,00:13:05.96,00:13:06.81,47157,47208,place wooden spoon on refrigerator,place-on,1,spoon:wooden,1,"['spoon:wooden', 'refrigerator']","[1, 12]"
-P05_07_106,P05,P05_07,00:13:07.000,00:13:07.13,00:13:09.04,47227,47342,place pot on hob,place-on,1,pot,29,"['pot', 'hob']","[29, 24]"
-P05_07_107,P05,P05_07,00:13:09.000,00:13:09.87,00:13:11.64,47392,47498,cover pot,cover,36,pot,29,['pot'],[29]
-P05_07_108,P05,P05_07,,00:13:11.83,00:13:12.57,47509,47554,press switch,press,21,switch,92,['switch'],[92]
+P05_07_105,P05,P05_07,00:13:06.000,00:13:05.96,00:13:06.81,47157,47208,place spoon on fridge,place-on,1,spoon:wooden,1,"['spoon:wooden', 'refrigerator']","[1, 12]"
+P05_07_106,P05,P05_07,00:13:07.000,00:13:07.13,00:13:09.04,47227,47342,place pot on the fire,place-on,1,pot,29,"['pot', 'hob']","[29, 24]"
+P05_07_107,P05,P05_07,00:13:09.000,00:13:09.87,00:13:11.64,47392,47498,wrap pot,cover,36,pot,29,['pot'],[29]
+P05_07_108,P05,P05_07,,00:13:11.83,00:13:12.57,47509,47554,press button,press,21,switch,92,['switch'],[92]
 P05_07_109,P05,P05_07,00:13:14.000,00:13:14.38,00:13:16.44,47662,47786,take bowl,take,0,bowl,7,['bowl'],[7]
-P05_07_11,P05,P05_07,00:00:35.000,00:00:35.21,00:00:37.06,2112,2223,open refrigerator,open,3,refrigerator,12,['refrigerator'],[12]
-P05_07_110,P05,P05_07,00:13:17.000,00:13:17.44,00:13:18.69,47846,47921,place bowl on table,place,1,bowl,7,"['bowl', 'table']","[7, 42]"
-P05_07_12,P05,P05_07,00:00:37.000,00:00:39.04,00:00:41.53,2342,2491,take salad pack,take,0,pack:salad,26,['pack:salad'],[26]
-P05_07_13,P05,P05_07,00:00:43.000,00:00:41.63,00:00:44.24,2497,2654,place salad pack on table,place,1,pack:salad,26,"['pack:salad', 'table']","[26, 42]"
-P05_07_14,P05,P05_07,00:00:49.000,00:00:49.58,00:01:00.12,2974,3607,open salad package,open,3,package:salad,26,['package:salad'],[26]
-P05_07_15,P05,P05_07,00:01:00.000,00:01:00.29,00:01:05.04,3617,3902,fold film,fold,28,film,100,['film'],[100]
-P05_07_16,P05,P05_07,00:01:06.000,00:01:05.55,00:01:07.87,3933,4072,throw film,throw,13,film,100,['film'],[100]
-P05_07_17,P05,P05_07,00:01:09.000,00:01:08.99,00:01:11.99,4139,4319,spread oil in pot,spread-in,27,oil,31,"['oil', 'pot']","[31, 29]"
-P05_07_18,P05,P05_07,00:01:16.000,00:01:15.43,00:01:17.39,4525,4643,take wooden spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
-P05_07_19,P05,P05_07,00:01:22.000,00:01:21.85,00:01:23.37,4911,5002,place wooden spatula on refrigerator,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
+P05_07_11,P05,P05_07,00:00:35.000,00:00:35.21,00:00:37.06,2112,2223,open fridge,open,3,refrigerator,12,['refrigerator'],[12]
+P05_07_110,P05,P05_07,00:13:17.000,00:13:17.44,00:13:18.69,47846,47921,put bowl on surface,place,1,bowl,7,"['bowl', 'table']","[7, 42]"
+P05_07_12,P05,P05_07,00:00:37.000,00:00:39.04,00:00:41.53,2342,2491,take package,take,0,pack:salad,26,['pack:salad'],[26]
+P05_07_13,P05,P05_07,00:00:43.000,00:00:41.63,00:00:44.24,2497,2654,put package on surface,place,1,pack:salad,26,"['pack:salad', 'table']","[26, 42]"
+P05_07_14,P05,P05_07,00:00:49.000,00:00:49.58,00:01:00.12,2974,3607,open package,open,3,package:salad,26,['package:salad'],[26]
+P05_07_15,P05,P05_07,00:01:00.000,00:01:00.29,00:01:05.04,3617,3902,fold plastic wrap,fold,28,film,100,['film'],[100]
+P05_07_16,P05,P05_07,00:01:06.000,00:01:05.55,00:01:07.87,3933,4072,throw plastic wrap,throw,13,film,100,['film'],[100]
+P05_07_17,P05,P05_07,00:01:09.000,00:01:08.99,00:01:11.99,4139,4319,apply oil in pot,spread-in,27,oil,31,"['oil', 'pot']","[31, 29]"
+P05_07_18,P05,P05_07,00:01:16.000,00:01:15.43,00:01:17.39,4525,4643,take spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
+P05_07_19,P05,P05_07,00:01:22.000,00:01:21.85,00:01:23.37,4911,5002,place spatula on fridge,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
 P05_07_2,P05,P05_07,00:00:08.000,00:00:09.38,00:00:12.95,562,777,take pot,take,0,pot,29,['pot'],[29]
 P05_07_20,P05,P05_07,00:01:35.000,00:01:32.14,00:01:39.64,5528,5978,empty water in jug,empty,20,water,27,"['water', 'jug']","[27, 66]"
 P05_07_21,P05,P05_07,00:01:34.000,00:01:33.29,00:01:34.29,5597,5657,take kettle,take,0,kettle,44,['kettle'],[44]
 P05_07_22,P05,P05_07,00:01:41.000,00:01:40.00,00:01:51.51,6000,6690,fill kettle,fill,26,kettle,44,['kettle'],[44]
-P05_07_23,P05,P05_07,00:01:53.000,00:01:52.27,00:01:55.38,6736,6922,place kettle on base,place,1,kettle,44,"['kettle', 'base']","[44, 249]"
-P05_07_24,P05,P05_07,00:09:07.000,00:01:55.48,00:01:56.39,6928,6983,press switch,press,21,switch,92,['switch'],[92]
+P05_07_23,P05,P05_07,00:01:53.000,00:01:52.27,00:01:55.38,6736,6922,put kettle on stand,place,1,kettle,44,"['kettle', 'base']","[44, 249]"
+P05_07_24,P05,P05_07,00:09:07.000,00:01:55.48,00:01:56.39,6928,6983,press button,press,21,switch,92,['switch'],[92]
 P05_07_25,P05,P05_07,00:01:57.000,00:01:56.44,00:01:57.33,6986,7039,turn on kettle,turn-on,6,kettle,44,['kettle'],[44]
 P05_07_26,P05,P05_07,00:01:58.000,00:01:57.81,00:01:59.23,7068,7153,open cupboard,open,3,cupboard,3,['cupboard'],[3]
 P05_07_27,P05,P05_07,00:02:00.000,00:01:59.64,00:02:02.94,7178,7376,take pot,take,0,pot,29,['pot'],[29]
-P05_07_28,P05,P05_07,00:02:05.000,00:02:04.29,00:02:06.79,7457,7607,place pot on hob,place-on,1,pot,29,"['pot', 'hob']","[29, 24]"
-P05_07_29,P05,P05_07,00:02:08.000,00:02:06.35,00:02:08.17,7581,7690,turn on hob,turn-on,6,hob,24,['hob'],[24]
-P05_07_3,P05,P05_07,00:00:17.000,00:00:17.54,00:00:18.61,1052,1116,place pot on hob,place-on,1,pot,29,"['pot', 'hob']","[29, 24]"
+P05_07_28,P05,P05_07,00:02:05.000,00:02:04.29,00:02:06.79,7457,7607,place pot on the fire,place-on,1,pot,29,"['pot', 'hob']","[29, 24]"
+P05_07_29,P05,P05_07,00:02:08.000,00:02:06.35,00:02:08.17,7581,7690,turn on the fire,turn-on,6,hob,24,['hob'],[24]
+P05_07_3,P05,P05_07,00:00:17.000,00:00:17.54,00:00:18.61,1052,1116,place pot on the fire,place-on,1,pot,29,"['pot', 'hob']","[29, 24]"
 P05_07_30,P05,P05_07,00:02:11.000,00:02:10.70,00:02:11.93,7841,7915,open cupboard,open,3,cupboard,3,['cupboard'],[3]
 P05_07_31,P05,P05_07,00:02:12.000,00:02:12.02,00:02:13.44,7921,8006,take soup,take,0,soup,126,['soup'],[126]
 P05_07_32,P05,P05_07,00:02:14.000,00:02:13.92,00:02:14.85,8035,8091,close cupboard,close,4,cupboard,3,['cupboard'],[3]
-P05_07_33,P05,P05_07,00:02:22.000,00:02:21.19,00:02:24.51,8471,8670,spread oil in pot,spread-in,27,oil,31,"['oil', 'pot']","[31, 29]"
-P05_07_34,P05,P05_07,00:02:54.000,00:02:55.07,00:02:56.28,10504,10576,spread oil in pot,spread-in,27,oil,31,"['oil', 'pot']","[31, 29]"
-P05_07_35,P05,P05_07,00:02:58.000,00:02:57.98,00:02:59.03,10678,10741,take salad package,take,0,package:salad,26,['package:salad'],[26]
-P05_07_36,P05,P05_07,00:03:00.000,00:03:00.33,00:03:01.42,10819,10885,take wooden spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
+P05_07_33,P05,P05_07,00:02:22.000,00:02:21.19,00:02:24.51,8471,8670,apply oil in pot,spread-in,27,oil,31,"['oil', 'pot']","[31, 29]"
+P05_07_34,P05,P05_07,00:02:54.000,00:02:55.07,00:02:56.28,10504,10576,apply oil in pot,spread-in,27,oil,31,"['oil', 'pot']","[31, 29]"
+P05_07_35,P05,P05_07,00:02:58.000,00:02:57.98,00:02:59.03,10678,10741,take package,take,0,package:salad,26,['package:salad'],[26]
+P05_07_36,P05,P05_07,00:03:00.000,00:03:00.33,00:03:01.42,10819,10885,take spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
 P05_07_37,P05,P05_07,00:03:02.000,00:03:01.41,00:03:09.02,10884,11341,pour salad in pot,pour-in,9,salad,68,"['salad', 'pot']","[68, 29]"
-P05_07_38,P05,P05_07,00:03:12.000,00:03:12.22,00:03:13.18,11533,11590,place wooden spatula on refrigerator,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
-P05_07_39,P05,P05_07,00:03:15.000,00:03:16.15,00:03:24.81,11769,12288,rinse packaging,rinse,2,packaging,26,['packaging'],[26]
-P05_07_4,P05,P05_07,00:00:20.000,00:00:19.50,00:00:20.27,1170,1216,turn on hob,turn-on,6,hob,24,['hob'],[24]
-P05_07_40,P05,P05_07,00:03:27.000,00:03:27.04,00:03:28.70,12422,12522,rinse hands,rinse,2,hand,11,['hand'],[11]
-P05_07_41,P05,P05_07,00:03:32.000,00:03:32.19,00:03:32.90,12731,12774,take wooden spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
-P05_07_42,P05,P05_07,00:03:33.000,00:03:33.25,00:03:46.30,12795,13578,stir salad in pot,stir-in,10,salad,68,"['salad', 'pot']","[68, 29]"
-P05_07_43,P05,P05_07,00:03:46.000,00:03:46.63,00:03:48.40,13597,13704,place wooden spatula on refrigerator,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
+P05_07_38,P05,P05_07,00:03:12.000,00:03:12.22,00:03:13.18,11533,11590,place spatula on fridge,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
+P05_07_39,P05,P05_07,00:03:15.000,00:03:16.15,00:03:24.81,11769,12288,wash package,rinse,2,packaging,26,['packaging'],[26]
+P05_07_4,P05,P05_07,00:00:20.000,00:00:19.50,00:00:20.27,1170,1216,turn on the fire,turn-on,6,hob,24,['hob'],[24]
+P05_07_40,P05,P05_07,00:03:27.000,00:03:27.04,00:03:28.70,12422,12522,wash hands,rinse,2,hand,11,['hand'],[11]
+P05_07_41,P05,P05_07,00:03:32.000,00:03:32.19,00:03:32.90,12731,12774,take spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
+P05_07_42,P05,P05_07,00:03:33.000,00:03:33.25,00:03:46.30,12795,13578,mix salad in pot,stir-in,10,salad,68,"['salad', 'pot']","[68, 29]"
+P05_07_43,P05,P05_07,00:03:46.000,00:03:46.63,00:03:48.40,13597,13704,place spatula on fridge,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
 P05_07_44,P05,P05_07,00:04:03.000,00:04:02.17,00:04:04.83,14530,14689,shake pot,shake,15,pot,29,['pot'],[29]
-P05_07_45,P05,P05_07,00:04:15.000,00:04:14.18,00:04:14.85,15250,15291,take wooden spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
-P05_07_46,P05,P05_07,00:04:34.000,00:04:33.85,00:04:35.92,16431,16555,place wooden spatula on refrigerator,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
-P05_07_47,P05,P05_07,00:04:45.000,00:04:45.20,00:04:46.06,17112,17163,take soup pack,take,0,pack:soup,26,['pack:soup'],[26]
-P05_07_48,P05,P05_07,00:04:54.000,00:04:54.51,00:04:55.56,17670,17733,place soup pack on table,place,1,pack:soup,26,"['pack:soup', 'table']","[26, 42]"
+P05_07_45,P05,P05_07,00:04:15.000,00:04:14.18,00:04:14.85,15250,15291,take spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
+P05_07_46,P05,P05_07,00:04:34.000,00:04:33.85,00:04:35.92,16431,16555,place spatula on fridge,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
+P05_07_47,P05,P05_07,00:04:45.000,00:04:45.20,00:04:46.06,17112,17163,take package,take,0,pack:soup,26,['pack:soup'],[26]
+P05_07_48,P05,P05_07,00:04:54.000,00:04:54.51,00:04:55.56,17670,17733,put package on surface,place,1,pack:soup,26,"['pack:soup', 'table']","[26, 42]"
 P05_07_49,P05,P05_07,00:04:57.000,00:04:57.44,00:05:01.18,17846,18070,shake pot,shake,15,pot,29,['pot'],[29]
-P05_07_5,P05,P05_07,00:00:21.000,00:00:21.01,00:00:21.98,1260,1318,press switch,press,21,switch,92,['switch'],[92]
-P05_07_50,P05,P05_07,00:05:02.000,00:05:01.52,00:05:02.42,18091,18145,take wooden spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
-P05_07_51,P05,P05_07,00:05:04.000,00:05:02.24,00:05:09.00,18134,18540,move salad in pot,move-in,5,salad,68,"['salad', 'pot']","[68, 29]"
-P05_07_52,P05,P05_07,00:05:09.000,00:05:09.10,00:05:11.36,18546,18681,place wooden spatula on refrigerator,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
+P05_07_5,P05,P05_07,00:00:21.000,00:00:21.01,00:00:21.98,1260,1318,press button,press,21,switch,92,['switch'],[92]
+P05_07_50,P05,P05_07,00:05:02.000,00:05:01.52,00:05:02.42,18091,18145,take spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
+P05_07_51,P05,P05_07,00:05:04.000,00:05:02.24,00:05:09.00,18134,18540,put salad in pot,move-in,5,salad,68,"['salad', 'pot']","[68, 29]"
+P05_07_52,P05,P05_07,00:05:09.000,00:05:09.10,00:05:11.36,18546,18681,place spatula on fridge,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
 P05_07_53,P05,P05_07,00:05:13.000,00:05:13.41,00:05:14.86,18804,18891,take kettle,take,0,kettle,44,['kettle'],[44]
 P05_07_54,P05,P05_07,00:05:16.000,00:05:16.26,00:05:17.72,18975,19063,take pot,take,0,pot,29,['pot'],[29]
 P05_07_55,P05,P05_07,00:05:18.000,00:05:18.90,00:05:27.40,19134,19644,empty water in pot,empty,20,water,27,"['water', 'pot']","[27, 29]"
-P05_07_56,P05,P05_07,00:05:29.000,00:05:28.91,00:05:31.03,19734,19861,place kettle on base,place,1,kettle,44,"['kettle', 'base']","[44, 249]"
-P05_07_57,P05,P05_07,00:05:32.000,00:05:32.10,00:05:34.35,19926,20061,place pot on hob,place-on,1,pot,29,"['pot', 'hob']","[29, 24]"
-P05_07_58,P05,P05_07,00:05:36.000,00:05:36.20,00:05:39.45,20172,20367,take wooden spoon,take,0,spoon:wooden,1,['spoon:wooden'],[1]
+P05_07_56,P05,P05_07,00:05:29.000,00:05:28.91,00:05:31.03,19734,19861,put kettle on stand,place,1,kettle,44,"['kettle', 'base']","[44, 249]"
+P05_07_57,P05,P05_07,00:05:32.000,00:05:32.10,00:05:34.35,19926,20061,place pot on the fire,place-on,1,pot,29,"['pot', 'hob']","[29, 24]"
+P05_07_58,P05,P05_07,00:05:36.000,00:05:36.20,00:05:39.45,20172,20367,take spoon,take,0,spoon:wooden,1,['spoon:wooden'],[1]
 P05_07_59,P05,P05_07,00:05:39.000,00:05:39.79,00:05:54.18,20387,21250,pour soup into pot,pour-into,9,soup,126,"['soup', 'pot']","[126, 29]"
-P05_07_6,P05,P05_07,00:01:56.000,00:00:21.07,00:00:21.94,1264,1316,press switch,press,21,switch,92,['switch'],[92]
-P05_07_60,P05,P05_07,00:05:58.000,00:05:56.40,00:06:07.90,21384,22074,stir soup,stir,10,soup,126,['soup'],[126]
+P05_07_6,P05,P05_07,00:01:56.000,00:00:21.07,00:00:21.94,1264,1316,press button,press,21,switch,92,['switch'],[92]
+P05_07_60,P05,P05_07,00:05:58.000,00:05:56.40,00:06:07.90,21384,22074,mix soup,stir,10,soup,126,['soup'],[126]
 P05_07_61,P05,P05_07,00:06:08.000,00:06:08.61,00:06:09.44,22116,22166,press button,press,21,button,92,['button'],[92]
-P05_07_62,P05,P05_07,00:06:14.000,00:06:13.49,00:06:15.12,22409,22507,place wooden spoon on refrigerator,place-on,1,spoon:wooden,1,"['spoon:wooden', 'refrigerator']","[1, 12]"
-P05_07_63,P05,P05_07,00:06:16.000,00:06:15.44,00:06:17.87,22526,22672,cover pot,cover,36,pot,29,['pot'],[29]
-P05_07_64,P05,P05_07,00:06:19.000,00:06:18.93,00:06:20.05,22735,22803,take wooden spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
-P05_07_65,P05,P05_07,00:06:20.000,00:06:20.25,00:06:46.19,22815,24371,stir salad in pot,stir-in,10,salad,68,"['salad', 'pot']","[68, 29]"
-P05_07_66,P05,P05_07,00:06:46.000,00:06:46.35,00:06:47.52,24381,24451,place wooden spatula on refrigerator,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
-P05_07_67,P05,P05_07,00:07:20.000,00:07:19.23,00:07:20.93,26353,26455,take wooden spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
-P05_07_68,P05,P05_07,00:07:21.000,00:07:21.09,00:07:38.25,26465,27495,stir salad in pot,stir-in,10,salad,68,"['salad', 'pot']","[68, 29]"
-P05_07_69,P05,P05_07,00:07:38.000,00:07:38.78,00:07:39.58,27526,27574,place wooden spatula on refrigerator,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
+P05_07_62,P05,P05_07,00:06:14.000,00:06:13.49,00:06:15.12,22409,22507,place spoon on fridge,place-on,1,spoon:wooden,1,"['spoon:wooden', 'refrigerator']","[1, 12]"
+P05_07_63,P05,P05_07,00:06:16.000,00:06:15.44,00:06:17.87,22526,22672,wrap pot,cover,36,pot,29,['pot'],[29]
+P05_07_64,P05,P05_07,00:06:19.000,00:06:18.93,00:06:20.05,22735,22803,take spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
+P05_07_65,P05,P05_07,00:06:20.000,00:06:20.25,00:06:46.19,22815,24371,mix salad in pot,stir-in,10,salad,68,"['salad', 'pot']","[68, 29]"
+P05_07_66,P05,P05_07,00:06:46.000,00:06:46.35,00:06:47.52,24381,24451,place spatula on fridge,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
+P05_07_67,P05,P05_07,00:07:20.000,00:07:19.23,00:07:20.93,26353,26455,take spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
+P05_07_68,P05,P05_07,00:07:21.000,00:07:21.09,00:07:38.25,26465,27495,mix salad in pot,stir-in,10,salad,68,"['salad', 'pot']","[68, 29]"
+P05_07_69,P05,P05_07,00:07:38.000,00:07:38.78,00:07:39.58,27526,27574,place spatula on fridge,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
 P05_07_7,P05,P05_07,00:00:22.000,00:00:22.27,00:00:23.00,1336,1380,turn on extractor fan,turn-on,6,fan:extractor,179,['fan:extractor'],[179]
-P05_07_70,P05,P05_07,00:07:53.000,00:07:52.99,00:07:54.46,28379,28467,take wooden spoon,take,0,spoon:wooden,1,['spoon:wooden'],[1]
+P05_07_70,P05,P05_07,00:07:53.000,00:07:52.99,00:07:54.46,28379,28467,take spoon,take,0,spoon:wooden,1,['spoon:wooden'],[1]
 P05_07_71,P05,P05_07,00:07:55.000,00:07:54.31,00:07:55.27,28458,28516,uncover pot,uncover,83,pot,29,['pot'],[29]
-P05_07_72,P05,P05_07,00:07:56.000,00:07:55.58,00:08:07.35,28534,29241,stir soup,stir,10,soup,126,['soup'],[126]
-P05_07_73,P05,P05_07,00:08:07.000,00:08:07.45,00:08:08.94,29247,29336,cover pot,cover,36,pot,29,['pot'],[29]
-P05_07_74,P05,P05_07,00:08:09.000,00:08:08.76,00:08:10.04,29325,29402,place wooden spoon on refrigerator,place-on,1,spoon:wooden,1,"['spoon:wooden', 'refrigerator']","[1, 12]"
-P05_07_75,P05,P05_07,00:08:54.000,00:08:53.41,00:08:54.58,32004,32074,take wooden spoon,take,0,spoon:wooden,1,['spoon:wooden'],[1]
+P05_07_72,P05,P05_07,00:07:56.000,00:07:55.58,00:08:07.35,28534,29241,mix soup,stir,10,soup,126,['soup'],[126]
+P05_07_73,P05,P05_07,00:08:07.000,00:08:07.45,00:08:08.94,29247,29336,wrap pot,cover,36,pot,29,['pot'],[29]
+P05_07_74,P05,P05_07,00:08:09.000,00:08:08.76,00:08:10.04,29325,29402,place spoon on fridge,place-on,1,spoon:wooden,1,"['spoon:wooden', 'refrigerator']","[1, 12]"
+P05_07_75,P05,P05_07,00:08:54.000,00:08:53.41,00:08:54.58,32004,32074,take spoon,take,0,spoon:wooden,1,['spoon:wooden'],[1]
 P05_07_76,P05,P05_07,00:08:55.000,00:08:54.96,00:08:55.88,32097,32152,uncover pot,uncover,83,pot,29,['pot'],[29]
-P05_07_77,P05,P05_07,00:08:56.000,00:08:55.92,00:09:03.26,32155,32595,stir soup,stir,10,soup,126,['soup'],[126]
-P05_07_78,P05,P05_07,00:09:03.000,00:09:03.27,00:09:04.37,32596,32662,cover pot,cover,36,pot,29,['pot'],[29]
-P05_07_79,P05,P05_07,00:09:04.000,00:09:04.47,00:09:05.41,32668,32724,place wooden spoon on refrigerator,place-on,1,spoon:wooden,1,"['spoon:wooden', 'refrigerator']","[1, 12]"
-P05_07_8,P05,P05_07,00:00:24.000,00:00:24.09,00:00:25.84,1445,1550,take oil bottle,take,0,bottle:oil,15,['bottle:oil'],[15]
-P05_07_80,P05,P05_07,00:09:06.000,00:09:05.81,00:09:06.68,32748,32800,turn off hob,turn-off,8,hob,24,['hob'],[24]
-P05_07_81,P05,P05_07,00:13:12.000,00:09:07.87,00:09:08.79,32872,32927,press switch,press,21,switch,92,['switch'],[92]
+P05_07_77,P05,P05_07,00:08:56.000,00:08:55.92,00:09:03.26,32155,32595,mix soup,stir,10,soup,126,['soup'],[126]
+P05_07_78,P05,P05_07,00:09:03.000,00:09:03.27,00:09:04.37,32596,32662,wrap pot,cover,36,pot,29,['pot'],[29]
+P05_07_79,P05,P05_07,00:09:04.000,00:09:04.47,00:09:05.41,32668,32724,place spoon on fridge,place-on,1,spoon:wooden,1,"['spoon:wooden', 'refrigerator']","[1, 12]"
+P05_07_8,P05,P05_07,00:00:24.000,00:00:24.09,00:00:25.84,1445,1550,take bottle,take,0,bottle:oil,15,['bottle:oil'],[15]
+P05_07_80,P05,P05_07,00:09:06.000,00:09:05.81,00:09:06.68,32748,32800,turn off the fire,turn-off,8,hob,24,['hob'],[24]
+P05_07_81,P05,P05_07,00:13:12.000,00:09:07.87,00:09:08.79,32872,32927,press button,press,21,switch,92,['switch'],[92]
 P05_07_82,P05,P05_07,00:09:11.000,00:09:11.55,00:09:12.25,33093,33135,take pot,take,0,pot,29,['pot'],[29]
 P05_07_83,P05,P05_07,00:09:12.000,00:09:12.17,00:09:14.01,33130,33240,shake pot,shake,15,pot,29,['pot'],[29]
-P05_07_84,P05,P05_07,00:09:43.000,00:09:43.47,00:09:44.70,35008,35082,take wooden spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
-P05_07_85,P05,P05_07,00:09:45.000,00:09:45.46,00:09:57.74,35127,35864,stir salad in pot,stir-in,10,salad,68,"['salad', 'pot']","[68, 29]"
-P05_07_86,P05,P05_07,00:09:59.000,00:09:59.34,00:10:00.56,35960,36033,place wooden spatula on refrigerator,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
+P05_07_84,P05,P05_07,00:09:43.000,00:09:43.47,00:09:44.70,35008,35082,take spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
+P05_07_85,P05,P05_07,00:09:45.000,00:09:45.46,00:09:57.74,35127,35864,mix salad in pot,stir-in,10,salad,68,"['salad', 'pot']","[68, 29]"
+P05_07_86,P05,P05_07,00:09:59.000,00:09:59.34,00:10:00.56,35960,36033,place spatula on fridge,place-on,1,spatula:wooden,20,"['spatula:wooden', 'refrigerator']","[20, 12]"
 P05_07_87,P05,P05_07,00:10:22.000,00:10:21.50,00:10:22.57,37290,37354,take plate,take,0,plate,2,['plate'],[2]
-P05_07_88,P05,P05_07,00:10:23.000,00:10:23.05,00:10:23.91,37383,37434,place dish on table,place,1,dish,2,"['dish', 'table']","[2, 42]"
-P05_07_89,P05,P05_07,00:10:31.000,00:10:31.39,00:10:32.30,37883,37938,take wooden spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
+P05_07_88,P05,P05_07,00:10:23.000,00:10:23.05,00:10:23.91,37383,37434,put plate on surface,place,1,dish,2,"['dish', 'table']","[2, 42]"
+P05_07_89,P05,P05_07,00:10:31.000,00:10:31.39,00:10:32.30,37883,37938,take spatula,take,0,spatula:wooden,20,['spatula:wooden'],[20]
 P05_07_9,P05,P05_07,00:00:27.000,00:00:26.59,00:00:31.24,1595,1874,pour oil in pot,pour-in,9,oil,31,"['oil', 'pot']","[31, 29]"
 P05_07_90,P05,P05_07,00:10:33.000,00:10:33.18,00:10:33.94,37990,38036,take pot,take,0,pot,29,['pot'],[29]
 P05_07_91,P05,P05_07,00:10:36.000,00:10:34.60,00:10:52.09,38076,39125,pour salad on plate,pour-on,9,salad,68,"['salad', 'plate']","[68, 2]"
-P05_07_92,P05,P05_07,00:10:54.000,00:10:55.25,00:11:11.69,39315,40301,rinse pot,rinse,2,pot,29,['pot'],[29]
+P05_07_92,P05,P05_07,00:10:54.000,00:10:55.25,00:11:11.69,39315,40301,wash pot,rinse,2,pot,29,['pot'],[29]
 P05_07_93,P05,P05_07,00:11:12.000,00:11:15.45,00:11:31.31,40527,41478,wash pot,wash,2,pot,29,['pot'],[29]
-P05_07_94,P05,P05_07,00:12:06.000,00:12:03.71,00:12:09.81,43422,43788,place pot on drainer,place-on,1,pot,29,"['pot', 'drainer']","[29, 110]"
-P05_07_95,P05,P05_07,00:12:14.000,00:12:13.50,00:12:14.81,44010,44088,take wooden spoon,take,0,spoon:wooden,1,['spoon:wooden'],[1]
+P05_07_94,P05,P05_07,00:12:06.000,00:12:03.71,00:12:09.81,43422,43788,place pot on drying rack,place-on,1,pot,29,"['pot', 'drainer']","[29, 110]"
+P05_07_95,P05,P05_07,00:12:14.000,00:12:13.50,00:12:14.81,44010,44088,take spoon,take,0,spoon:wooden,1,['spoon:wooden'],[1]
 P05_07_96,P05,P05_07,00:12:15.000,00:12:14.91,00:12:16.34,44094,44180,uncover pot,uncover,83,pot,29,['pot'],[29]
-P05_07_97,P05,P05_07,00:12:16.000,00:12:16.14,00:12:26.63,44168,44797,stir soup,stir,10,soup,126,['soup'],[126]
-P05_07_98,P05,P05_07,00:12:27.000,00:12:27.48,00:12:28.67,44848,44920,cover pot,cover,36,pot,29,['pot'],[29]
-P05_07_99,P05,P05_07,00:12:29.000,00:12:28.04,00:12:29.29,44882,44957,place wooden spoon on refrigerator,place-on,1,spoon:wooden,1,"['spoon:wooden', 'refrigerator']","[1, 12]"
+P05_07_97,P05,P05_07,00:12:16.000,00:12:16.14,00:12:26.63,44168,44797,mix soup,stir,10,soup,126,['soup'],[126]
+P05_07_98,P05,P05_07,00:12:27.000,00:12:27.48,00:12:28.67,44848,44920,wrap pot,cover,36,pot,29,['pot'],[29]
+P05_07_99,P05,P05_07,00:12:29.000,00:12:28.04,00:12:29.29,44882,44957,place spoon on fridge,place-on,1,spoon:wooden,1,"['spoon:wooden', 'refrigerator']","[1, 12]"
 P05_09_0,P05,P05_09,00:00:02.000,00:00:02.54,00:00:03.76,152,225,take pan,take,0,pan,5,['pan'],[5]
 P05_09_1,P05,P05_09,00:00:04.000,00:00:04.42,00:00:05.99,265,359,put pan in cupboard,put-in,5,pan,5,"['pan', 'cupboard']","[5, 3]"
-P05_09_10,P05,P05_09,00:00:25.000,00:00:25.40,00:00:31.65,1524,1899,empty kettle into pitcher,empty,20,kettle,44,"['kettle', 'pitcher']","[44, 66]"
+P05_09_10,P05,P05_09,00:00:25.000,00:00:25.40,00:00:31.65,1524,1899,empty kettle into jug,empty,20,kettle,44,"['kettle', 'pitcher']","[44, 66]"
 P05_09_11,P05,P05_09,00:00:33.000,00:00:33.00,00:00:40.39,1980,2423,fill kettle,fill,26,kettle,44,['kettle'],[44]
-P05_09_12,P05,P05_09,00:00:41.000,00:00:40.85,00:00:42.90,2451,2574,place kettle on base,place,1,kettle,44,"['kettle', 'base']","[44, 249]"
+P05_09_12,P05,P05_09,00:00:41.000,00:00:40.85,00:00:42.90,2451,2574,put kettle on stand,place,1,kettle,44,"['kettle', 'base']","[44, 249]"
 P05_09_13,P05,P05_09,00:00:43.000,00:00:43.20,00:00:45.57,2592,2734,turn on kettle,turn-on,6,kettle,44,['kettle'],[44]
 P05_09_14,P05,P05_09,00:00:47.000,00:00:47.05,00:00:48.30,2823,2898,take spoon,take,0,spoon,1,['spoon'],[1]
 P05_09_15,P05,P05_09,00:00:48.000,00:00:48.50,00:00:50.10,2910,3006,take sugar,take,0,sugar,102,['sugar'],[102]
 P05_09_16,P05,P05_09,00:00:53.000,00:00:53.25,00:00:56.72,3195,3403,pour sugar into cup,pour-into,9,sugar,102,"['sugar', 'cup']","[102, 13]"
-P05_09_17,P05,P05_09,00:00:58.000,00:00:58.57,00:01:00.68,3514,3640,place sugar bowl on table,place-on,1,bowl:sugar,7,"['bowl:sugar', 'table']","[7, 42]"
+P05_09_17,P05,P05_09,00:00:58.000,00:00:58.57,00:01:00.68,3514,3640,place bowl on surface,place-on,1,bowl:sugar,7,"['bowl:sugar', 'table']","[7, 42]"
 P05_09_18,P05,P05_09,00:01:01.000,00:01:01.38,00:01:02.23,3682,3733,open cupboard,open,3,cupboard,3,['cupboard'],[3]
-P05_09_19,P05,P05_09,00:01:02.000,00:01:02.17,00:01:03.76,3730,3825,take tea pack from cupboard,take-from,0,pack:tea,26,"['pack:tea', 'cupboard']","[26, 3]"
+P05_09_19,P05,P05_09,00:01:02.000,00:01:02.17,00:01:03.76,3730,3825,take package from cupboard,take-from,0,pack:tea,26,"['pack:tea', 'cupboard']","[26, 3]"
 P05_09_2,P05,P05_09,00:00:06.000,00:00:06.15,00:00:07.28,369,436,take pot,take,0,pot,29,['pot'],[29]
-P05_09_20,P05,P05_09,00:01:06.000,00:01:06.12,00:01:07.12,3967,4027,put tea pack in cupboard,put-in,5,pack:tea,26,"['pack:tea', 'cupboard']","[26, 3]"
+P05_09_20,P05,P05_09,00:01:06.000,00:01:06.12,00:01:07.12,3967,4027,put package in cupboard,put-in,5,pack:tea,26,"['pack:tea', 'cupboard']","[26, 3]"
 P05_09_21,P05,P05_09,00:01:15.000,00:01:14.97,00:01:16.08,4498,4564,open cupboard,open,3,cupboard,3,['cupboard'],[3]
 P05_09_22,P05,P05_09,00:01:17.000,00:01:16.32,00:01:20.37,4579,4822,take food from cupboard,take-from,0,food,34,['food'],[34]
 P05_09_23,P05,P05_09,00:01:22.000,00:01:21.71,00:01:23.51,4902,5010,take plate,take,0,plate,2,['plate'],[2]
 P05_09_24,P05,P05_09,00:01:30.000,00:01:31.16,00:01:48.50,5469,6510,pour food on plate,pour-on,9,food,34,"['food', 'plate']","[34, 2]"
-P05_09_25,P05,P05_09,00:01:50.000,00:01:49.62,00:01:51.62,6577,6697,throw packaging,throw,13,packaging,26,['packaging'],[26]
+P05_09_25,P05,P05_09,00:01:50.000,00:01:49.62,00:01:51.62,6577,6697,throw package,throw,13,packaging,26,['packaging'],[26]
 P05_09_26,P05,P05_09,00:01:55.000,00:01:54.93,00:01:56.18,6895,6970,open microwave,open,3,microwave,90,['microwave'],[90]
-P05_09_27,P05,P05_09,00:01:57.000,00:01:56.76,00:01:59.37,7005,7162,put plate in microwave oven,put-in,5,plate,2,"['plate', 'oven:microwave']","[2, 90]"
+P05_09_27,P05,P05_09,00:01:57.000,00:01:56.76,00:01:59.37,7005,7162,put plate in microwave,put-in,5,plate,2,"['plate', 'oven:microwave']","[2, 90]"
 P05_09_28,P05,P05_09,00:01:59.000,00:01:59.22,00:02:00.57,7153,7234,close microwave,close,4,microwave,90,['microwave'],[90]
-P05_09_29,P05,P05_09,00:02:01.000,00:02:00.67,00:02:02.50,7240,7350,turn on microwave oven,turn-on,6,oven:microwave,90,['oven:microwave'],[90]
+P05_09_29,P05,P05_09,00:02:01.000,00:02:00.67,00:02:02.50,7240,7350,turn on microwave,turn-on,6,oven:microwave,90,['oven:microwave'],[90]
 P05_09_3,P05,P05_09,00:00:07.000,00:00:07.57,00:00:08.82,454,529,put pot in cupboard,put-in,5,pot,29,"['pot', 'cupboard']","[29, 3]"
 P05_09_30,P05,P05_09,00:02:44.000,00:02:43.27,00:02:44.58,9796,9874,turn off kettle,turn-off,8,kettle,44,['kettle'],[44]
-P05_09_31,P05,P05_09,00:02:45.000,00:02:45.16,00:02:46.42,9909,9985,press switch,press,21,switch,92,['switch'],[92]
+P05_09_31,P05,P05_09,00:02:45.000,00:02:45.16,00:02:46.42,9909,9985,press button,press,21,switch,92,['switch'],[92]
 P05_09_32,P05,P05_09,00:02:46.000,00:02:46.89,00:02:47.66,10013,10059,take kettle,take,0,kettle,44,['kettle'],[44]
 P05_09_33,P05,P05_09,00:02:48.000,00:02:47.62,00:02:56.13,10057,10567,pour water into cup,pour-into,9,water,27,"['water', 'cup']","[27, 13]"
-P05_09_34,P05,P05_09,00:02:56.000,00:02:56.78,00:02:58.14,10606,10688,place kettle on base,place,1,kettle,44,"['kettle', 'base']","[44, 249]"
-P05_09_35,P05,P05_09,00:02:59.000,00:02:58.29,00:03:03.36,10697,11001,stir water,stir,10,water,27,['water'],[27]
-P05_09_36,P05,P05_09,00:03:04.000,00:03:04.04,00:03:05.04,11042,11102,put tea bag in cup,put-in,5,bag:tea,132,"['bag:tea', 'cup']","[132, 13]"
-P05_09_37,P05,P05_09,00:03:07.000,00:03:07.39,00:03:08.74,11243,11324,open refrigerator,open,3,refrigerator,12,['refrigerator'],[12]
+P05_09_34,P05,P05_09,00:02:56.000,00:02:56.78,00:02:58.14,10606,10688,put kettle on stand,place,1,kettle,44,"['kettle', 'base']","[44, 249]"
+P05_09_35,P05,P05_09,00:02:59.000,00:02:58.29,00:03:03.36,10697,11001,mix water,stir,10,water,27,['water'],[27]
+P05_09_36,P05,P05_09,00:03:04.000,00:03:04.04,00:03:05.04,11042,11102,put tea in cup,put-in,5,bag:tea,132,"['bag:tea', 'cup']","[132, 13]"
+P05_09_37,P05,P05_09,00:03:07.000,00:03:07.39,00:03:08.74,11243,11324,open fridge,open,3,refrigerator,12,['refrigerator'],[12]
 P05_09_38,P05,P05_09,00:03:09.000,00:03:08.84,00:03:12.44,11330,11546,take containers,take,0,container,21,['container'],[21]
-P05_09_39,P05,P05_09,00:03:15.000,00:03:13.95,00:03:16.24,11637,11774,take milk container,take,0,container:milk,21,['container:milk'],[21]
+P05_09_39,P05,P05_09,00:03:15.000,00:03:13.95,00:03:16.24,11637,11774,take container,take,0,container:milk,21,['container:milk'],[21]
 P05_09_4,P05,P05_09,00:00:09.000,00:00:09.26,00:00:10.30,555,618,take colander,take,0,colander,39,['colander'],[39]
-P05_09_40,P05,P05_09,00:03:16.000,00:03:16.09,00:03:17.29,11765,11837,place milk container on table,place,1,container:milk,21,"['container:milk', 'table']","[21, 42]"
+P05_09_40,P05,P05_09,00:03:16.000,00:03:16.09,00:03:17.29,11765,11837,put container on surface,place,1,container:milk,21,"['container:milk', 'table']","[21, 42]"
 P05_09_41,P05,P05_09,00:03:18.000,00:03:17.06,00:03:19.03,11823,11941,take spoon,take,0,spoon,1,['spoon'],[1]
 P05_09_42,P05,P05_09,00:03:24.000,00:03:22.86,00:03:26.22,12171,12373,open container,open,3,container,21,['container'],[21]
 P05_09_43,P05,P05_09,00:03:28.000,00:03:27.43,00:04:14.93,12445,15295,pour pasta in container,pour-in,9,pasta,45,"['pasta', 'container']","[45, 21]"
@@ -2189,26 +2189,26 @@ P05_09_44,P05,P05_09,00:04:18.000,00:04:16.27,00:04:19.97,15376,15598,close cont
 P05_09_45,P05,P05_09,00:04:22.000,00:04:22.30,00:04:25.60,15738,15936,open container,open,3,container,21,['container'],[21]
 P05_09_46,P05,P05_09,00:04:27.000,00:04:27.11,00:05:15.03,16026,18901,pour meat in container,pour,9,meat,28,"['meat', 'container']","[28, 21]"
 P05_09_47,P05,P05_09,00:05:16.000,00:05:16.33,00:05:22.65,18979,19359,close container,close,4,container,21,['container'],[21]
-P05_09_48,P05,P05_09,00:05:25.000,00:05:23.31,00:05:25.66,19398,19539,place spoon in sink,place,1,spoon,1,"['spoon', 'sink']","[1, 63]"
+P05_09_48,P05,P05_09,00:05:25.000,00:05:23.31,00:05:25.66,19398,19539,put spoon in sink,place,1,spoon,1,"['spoon', 'sink']","[1, 63]"
 P05_09_49,P05,P05_09,00:05:31.000,00:05:31.14,00:05:35.89,19868,20153,close container,close,4,container,21,['container'],[21]
 P05_09_5,P05,P05_09,00:00:10.000,00:00:10.77,00:00:11.63,646,697,put colander in cupboard,put-in,5,colander,39,"['colander', 'cupboard']","[39, 3]"
-P05_09_50,P05,P05_09,00:05:40.000,00:05:35.33,00:05:43.18,20119,20590,put containers in refrigerator,put-in,5,container,21,"['container', 'refrigerator']","[21, 12]"
-P05_09_51,P05,P05_09,00:05:47.000,00:05:47.54,00:05:48.20,20852,20892,take rag,take,0,rag,17,['rag'],[17]
-P05_09_52,P05,P05_09,00:05:48.000,00:05:48.54,00:05:50.81,20912,21048,wipe table,wipe,2,table,42,['table'],[42]
-P05_09_53,P05,P05_09,00:05:51.000,00:05:50.74,00:05:51.64,21044,21098,place rag,place,1,rag,17,['rag'],[17]
+P05_09_50,P05,P05_09,00:05:40.000,00:05:35.33,00:05:43.18,20119,20590,put containers in fridge,put-in,5,container,21,"['container', 'refrigerator']","[21, 12]"
+P05_09_51,P05,P05_09,00:05:47.000,00:05:47.54,00:05:48.20,20852,20892,take cloth,take,0,rag,17,['rag'],[17]
+P05_09_52,P05,P05_09,00:05:48.000,00:05:48.54,00:05:50.81,20912,21048,wash surface,wipe,2,table,42,['table'],[42]
+P05_09_53,P05,P05_09,00:05:51.000,00:05:50.74,00:05:51.64,21044,21098,put cloth,place,1,rag,17,['rag'],[17]
 P05_09_54,P05,P05_09,00:05:53.000,00:05:53.00,00:06:05.86,21180,21951,wash spoon,wash,2,spoon,1,['spoon'],[1]
-P05_09_55,P05,P05_09,00:06:15.000,00:06:22.22,00:06:24.09,22933,23045,throw tea bag,throw,13,bag:tea,132,['bag:tea'],[132]
-P05_09_56,P05,P05_09,00:06:28.000,00:06:28.75,00:06:30.24,23325,23414,take milk container,take,0,container:milk,21,['container:milk'],[21]
+P05_09_55,P05,P05_09,00:06:15.000,00:06:22.22,00:06:24.09,22933,23045,throw tea,throw,13,bag:tea,132,['bag:tea'],[132]
+P05_09_56,P05,P05_09,00:06:28.000,00:06:28.75,00:06:30.24,23325,23414,take container,take,0,container:milk,21,['container:milk'],[21]
 P05_09_57,P05,P05_09,00:06:31.000,00:06:29.43,00:06:35.48,23365,23728,pour milk into cup,pour-into,9,milk,64,"['milk', 'cup']","[64, 13]"
-P05_09_58,P05,P05_09,00:06:37.000,00:06:37.19,00:06:42.17,23831,24130,put milk container in refrigerator,put-in,5,container:milk,21,"['container:milk', 'refrigerator']","[21, 12]"
-P05_09_59,P05,P05_09,00:06:41.000,00:06:41.20,00:06:43.12,24072,24187,close refrigerator,close,4,refrigerator,12,['refrigerator'],[12]
+P05_09_58,P05,P05_09,00:06:37.000,00:06:37.19,00:06:42.17,23831,24130,put container in fridge,put-in,5,container:milk,21,"['container:milk', 'refrigerator']","[21, 12]"
+P05_09_59,P05,P05_09,00:06:41.000,00:06:41.20,00:06:43.12,24072,24187,close fridge,close,4,refrigerator,12,['refrigerator'],[12]
 P05_09_6,P05,P05_09,00:00:12.000,00:00:11.50,00:00:15.25,690,915,take container from cupboard,take-from,0,container,21,"['container', 'cupboard']","[21, 3]"
 P05_09_60,P05,P05_09,00:06:46.000,00:06:46.71,00:06:47.74,24402,24464,open microwave,open,3,microwave,90,['microwave'],[90]
-P05_09_61,P05,P05_09,00:06:47.000,00:06:47.27,00:06:49.39,24436,24563,remove plate from microwave oven,remove-from,12,plate,2,"['plate', 'oven:microwave']","[2, 90]"
+P05_09_61,P05,P05_09,00:06:47.000,00:06:47.27,00:06:49.39,24436,24563,remove plate from microwave,remove-from,12,plate,2,"['plate', 'oven:microwave']","[2, 90]"
 P05_09_62,P05,P05_09,00:06:49.000,00:06:49.22,00:06:50.19,24553,24611,close microwave,close,4,microwave,90,['microwave'],[90]
-P05_09_63,P05,P05_09,00:06:51.000,00:06:51.13,00:06:52.12,24667,24727,place plate on table,place-on,1,plate,2,"['plate', 'table']","[2, 42]"
-P05_09_64,P05,P05_09,00:06:53.000,00:06:53.40,00:06:54.38,24804,24862,press switch,press,21,switch,92,['switch'],[92]
-P05_09_65,P05,P05_09,00:06:55.000,00:06:54.75,00:06:59.04,24885,25142,stir mug,stir,10,mug,13,['mug'],[13]
+P05_09_63,P05,P05_09,00:06:51.000,00:06:51.13,00:06:52.12,24667,24727,place plate on surface,place-on,1,plate,2,"['plate', 'table']","[2, 42]"
+P05_09_64,P05,P05_09,00:06:53.000,00:06:53.40,00:06:54.38,24804,24862,press button,press,21,switch,92,['switch'],[92]
+P05_09_65,P05,P05_09,00:06:55.000,00:06:54.75,00:06:59.04,24885,25142,mix cup,stir,10,mug,13,['mug'],[13]
 P05_09_7,P05,P05_09,00:00:15.000,00:00:15.85,00:00:19.60,951,1176,take lid from cupboard,take-from,0,lid,6,['lid'],[6]
 P05_09_8,P05,P05_09,00:00:22.000,00:00:21.90,00:00:23.46,1314,1407,take cup,take,0,cup,13,['cup'],[13]
 P05_09_9,P05,P05_09,00:00:24.000,00:00:24.80,00:00:25.61,1488,1536,take kettle,take,0,kettle,44,['kettle'],[44]
