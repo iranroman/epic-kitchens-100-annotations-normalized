@@ -56,7 +56,7 @@ first = int(sys.argv[1])
 
 subs_dict = {}
 # main loop
-for i, l in enumerate(annotations[first:2213],start=first):
+for i, l in enumerate(annotations[first:2608],start=first):
     print(i, l[2])
     print(l[8])
     l[8] = l[8].replace('.','')
