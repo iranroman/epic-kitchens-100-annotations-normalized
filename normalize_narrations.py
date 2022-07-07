@@ -56,7 +56,7 @@ first = int(sys.argv[1])
 
 subs_dict = {}
 # main loop
-for i, l in enumerate(annotations[first:1334],start=first):
+for i, l in enumerate(annotations[first:1654],start=first):
     print(i, l[2])
     print(l[8])
     l[8] = l[8].replace('.','')
@@ -142,6 +142,8 @@ for i, l in enumerate(annotations[first:1334],start=first):
             # remove any duplicated spaces as last step
             l[8] = re.sub(' +', ' ', l[8])
 
+        # remove dashes
+        l[8] = l[8].replace('-',' ')
         # remove duplicate consecutive words
         l[8] = ' '.join(k for k, _ in itertools.groupby(l[8].split()))
         subs_dict[raw_action]=l[8]
