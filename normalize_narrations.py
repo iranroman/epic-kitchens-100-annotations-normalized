@@ -58,7 +58,7 @@ first = int(sys.argv[1])
 
 subs_dict = {}
 # main loop
-for i, l in enumerate(annotations[first:3278],start=first):
+for i, l in enumerate(annotations[first:3514],start=first):
     print(i, l[2])
     print(l[8])
     l[8] = l[8].replace('.','')
@@ -73,6 +73,9 @@ for i, l in enumerate(annotations[first:3278],start=first):
     # remove types of oil
     l[8] = l[8].replace('olive oil', 'oil')
     l[8] = l[8].replace(' olive', '') if 'olive' in l[8] and 'oil' in l[8] else l[8]
+
+    # remove another
+    l[8] = l[8].replace(' another ', ' ')
 
     # help with plurals
     l[8] = l[8].replace('patties', 'pattys')

@@ -1232,7 +1232,7 @@ P02_12_75,P02,P02_12,00:03:39.150,00:03:37.94,00:03:40.17,13076,13210,put tray,p
 P02_12_76,P02,P02_12,00:03:41.320,00:03:40.13,00:03:41.98,13207,13318,put tray,put,1,tray,35,['tray'],[35]
 P02_12_77,P02,P02_12,00:03:45.360,00:03:44.45,00:03:45.46,13467,13527,pick up cupboard,pick-up,0,cupboard:open,3,['cupboard:open'],[3]
 P02_12_78,P02,P02_12,00:03:51.150,00:03:49.69,00:03:51.39,13781,13883,put tray,return,1,tray,35,['tray'],[35]
-P02_12_79,P02,P02_12,00:03:57.430,00:03:51.02,00:03:57.89,13861,14273,take another tray,pick,0,tray,35,['tray'],[35]
+P02_12_79,P02,P02_12,00:03:57.430,00:03:51.02,00:03:57.89,13861,14273,take tray,pick,0,tray,35,['tray'],[35]
 P02_12_8,P02,P02_12,00:00:23.270,00:00:22.90,00:00:24.15,1374,1449,put leaf,put,1,herb,62,['herb'],[62]
 P02_12_80,P02,P02_12,00:03:58.430,00:03:57.88,00:03:58.50,14272,14310,remove lid,remove,12,lid,6,['lid'],[6]
 P02_12_81,P02,P02_12,00:03:59.430,00:03:58.48,00:03:59.22,14308,14353,put lid,put,1,lid,6,['lid'],[6]
@@ -3277,241 +3277,241 @@ P09_08_6,P09,P09_08,00:00:29.669,00:00:33.08,00:00:34.80,1984,2088,close package
 P09_08_7,P09,P09_08,,00:00:35.96,00:00:37.34,2157,2240,open fridge,open,3,refrigerator,12,['refrigerator'],[12]
 P09_08_8,P09,P09_08,,00:00:37.80,00:00:40.47,2268,2428,put blueberrys in fridge,put-in,5,berry,178,"['berry', 'refrigerator']","[178, 12]"
 P09_08_9,P09,P09_08,,00:00:41.03,00:00:41.79,2461,2507,close fridge,close,4,refrigerator,12,['refrigerator'],[12]
-P10_03_0,P10,P10_03,00:00:06.129,00:00:05.76,00:00:08.15,345,489,put the mobile phone under the cabinet,put-under,1,phone:mobile,165,"['phone:mobile', 'cabinet']","[165, 3]"
-P10_03_1,P10,P10_03,00:00:12.940,00:00:08.28,00:00:11.52,496,691,take the apron,take,0,apron,199,['apron'],[199]
-P10_03_10,P10,P10_03,00:01:06.430,00:01:01.78,00:01:06.07,3706,3964,put the cut board,put,1,board:cut,18,['board:cut'],[18]
-P10_03_100,P10,P10_03,00:13:48.000,00:13:39.47,00:13:55.42,49168,50125,wash it and remove the water,wash,2,water,27,['water'],[27]
-P10_03_101,P10,P10_03,00:14:02.410,00:14:01.41,00:14:02.48,50484,50548,put some water in the pot,put-in,5,water,27,"['water', 'pot']","[27, 29]"
-P10_03_102,P10,P10_03,00:14:05.750,00:14:03.96,00:14:07.09,50637,50825,get another pot,get,0,pot,29,['pot'],[29]
-P10_03_103,P10,P10_03,00:14:11.300,00:14:06.94,00:14:14.48,50816,51268,put some water into the pot and brush it,put-into,5,water,27,"['water', 'pot']","[27, 29]"
-P10_03_104,P10,P10_03,00:14:19.140,00:14:14.10,00:14:19.13,51246,51547,use water wash it again and put it on the oven,put-on,1,wash:water,27,"['wash:water', 'oven']","[27, 46]"
-P10_03_105,P10,P10_03,00:14:24.920,00:14:23.38,00:14:28.95,51802,52137,switch on the oven,switch-on,6,oven,46,['oven'],[46]
-P10_03_106,P10,P10_03,00:14:39.790,00:14:31.58,00:14:36.40,52294,52584,use cloth to clean oven,clean,2,cloth,17,"['cloth', 'oven']","[17, 46]"
-P10_03_107,P10,P10_03,00:14:44.480,00:14:42.59,00:14:48.19,52955,53291,brush another pot,brush,57,pot,29,['pot'],[29]
-P10_03_108,P10,P10_03,00:14:53.380,00:14:51.39,00:14:52.39,53483,53543,put second pot on oven too,put-on,1,pot:second,29,"['pot:second', 'oven']","[29, 46]"
-P10_03_109,P10,P10_03,00:14:57.930,00:14:56.05,00:14:57.77,53763,53866,put knife into the shelf,put-into,5,knife,4,"['knife', 'shelf']","[4, 247]"
-P10_03_11,P10,P10_03,00:01:18.159,00:01:06.02,00:01:20.17,3961,4810,get some rice,get,0,rice,55,['rice'],[55]
-P10_03_110,P10,P10_03,00:15:11.950,00:14:58.03,00:14:59.87,53881,53992,switch on the oven,switch-on,6,oven,46,['oven'],[46]
-P10_03_111,P10,P10_03,00:15:14.350,00:15:11.12,00:15:13.01,54667,54780,get some oil,get,0,oil,31,['oil'],[31]
-P10_03_112,P10,P10_03,00:15:17.070,00:15:13.91,00:15:23.46,54834,55407,make the cabbage into smaller piece,make,7,cabbage,224,['cabbage'],[224]
-P10_03_113,P10,P10_03,00:15:21.510,00:15:24.31,00:16:31.45,55458,59487,make the cabbage into smaller pieces,make-into,7,cabbage,224,['cabbage'],[224]
-P10_03_114,P10,P10_03,00:15:55.889,00:16:32.61,00:16:37.82,59556,59869,put some more oil into the pot,put-into,5,oil:more,31,"['oil:more', 'pot']","[31, 29]"
-P10_03_115,P10,P10_03,00:16:41.279,00:16:39.52,00:16:44.02,59971,60241,shake the pot to make the oil evenly cover the bottle bottom of the pot,shake,15,pot,29,"['pot', 'oil', 'bottom:bottle', 'pot']","[29, 31, 15, 29]"
-P10_03_116,P10,P10_03,00:16:50.050,00:16:47.22,00:16:49.53,60433,60571,put some honey inside the pot,put-inside,5,honey,115,"['honey', 'pot']","[115, 29]"
-P10_03_117,P10,P10_03,00:16:55.900,00:16:54.46,00:16:57.05,60867,61023,put the chilli pepper inside the pot,put-inside,5,pepper:chilli,69,"['pepper:chilli', 'pot']","[69, 29]"
-P10_03_118,P10,P10_03,00:17:05.079,00:17:02.97,00:17:06.21,61378,61572,put oil into the second pot,put-into,5,oil,31,"['oil', 'pot:second']","[31, 29]"
-P10_03_119,P10,P10_03,00:17:10.029,00:17:07.82,00:17:10.94,61669,61856,shake the first pot,shake,15,pot:first,29,['pot:first'],[29]
-P10_03_12,P10,P10_03,00:01:22.509,00:01:21.36,00:01:23.59,4881,5015,put the rice into the pot,put-into,5,rice,55,"['rice', 'pot']","[55, 29]"
-P10_03_120,P10,P10_03,00:17:13.180,00:17:11.49,00:17:12.92,61889,61975,and get spade,get,0,spade,1,['spade'],[1]
-P10_03_121,P10,P10_03,00:17:18.819,00:17:17.65,00:17:22.85,62259,62570,put ginger and onion into the second pot,put-into,5,ginger,131,"['ginger', 'onion', 'pot:second']","[131, 16, 29]"
-P10_03_122,P10,P10_03,00:17:26.630,00:17:25.01,00:17:27.71,62700,62862,shake the first pot,shake,15,pot:first,29,['pot:first'],[29]
-P10_03_123,P10,P10_03,00:17:29.450,00:17:27.81,00:17:32.86,62868,63171,put the cabbage pieces in the first pot,put-in,5,piece:cabbage,224,"['piece:cabbage', 'pot:first']","[224, 29]"
-P10_03_124,P10,P10_03,00:17:34.590,00:17:32.87,00:17:34.97,63172,63298,shake the second pot,shake,15,pot:second,29,['pot:second'],[29]
-P10_03_125,P10,P10_03,00:17:35.880,00:17:35.47,00:17:47.51,63328,64050,put the cabbage fragment into the pot,put-into,5,fragment:cabbage,224,"['fragment:cabbage', 'pot']","[224, 29]"
-P10_03_126,P10,P10_03,00:17:53.919,00:17:50.68,00:17:54.04,64240,64442,mix the onion,mix,10,onion,16,['onion'],[16]
-P10_03_127,P10,P10_03,00:17:55.740,00:17:54.14,00:17:57.06,64448,64623,put the shrimp inside another pot,put-inside,5,shrimp,253,"['shrimp', 'pot']","[253, 29]"
-P10_03_128,P10,P10_03,00:18:02.890,00:18:00.23,00:18:13.14,64813,65588,mix the cabbage,mix,10,cabbage,224,['cabbage'],[224]
-P10_03_129,P10,P10_03,00:18:18.380,00:18:14.96,00:18:21.12,65697,66067,grab a bottle of bean curd,grab,0,bottle:bean:curd,15,['bottle:bean:curd'],[15]
-P10_03_13,P10,P10_03,00:01:31.469,00:01:23.95,00:01:32.56,5037,5553,get some rice,get,0,rice,55,['rice'],[55]
-P10_03_130,P10,P10_03,00:18:31.710,00:18:28.00,00:18:34.53,66480,66871,put the bean source into the pot,put-into,5,source:bean,148,"['source:bean', 'pot']","[148, 29]"
-P10_03_131,P10,P10_03,00:18:41.390,00:18:37.24,00:18:43.50,67034,67410,put some salt inside the pot,put-inside,5,salt,38,"['salt', 'pot']","[38, 29]"
-P10_03_132,P10,P10_03,00:18:47.020,00:18:45.00,00:18:54.41,67500,68064,mix the cabbage,mix,10,cabbage,224,['cabbage'],[224]
-P10_03_133,P10,P10_03,,00:18:54.85,00:19:02.59,68091,68555,stir the shrimp with the onion fragments,stir,10,shrimp,253,"['shrimp', 'fragment:onion']","[253, 16]"
-P10_03_134,P10,P10_03,00:19:09.490,00:19:04.16,00:19:13.78,68649,69226,put the slice of bean curd into the pot,put-into,5,slice:bean:curd,81,"['slice:bean:curd', 'pot']","[81, 29]"
-P10_03_135,P10,P10_03,00:19:16.830,00:19:14.35,00:19:15.65,69261,69339,put the cutting board back,put,1,board:cutting,18,['board:cutting'],[18]
-P10_03_136,P10,P10_03,00:19:19.040,00:19:16.23,00:19:18.79,69373,69527,collapse the bean curd,collapse,21,curd:bean,81,['curd:bean'],[81]
-P10_03_137,P10,P10_03,00:19:22.010,00:19:19.35,00:19:21.14,69561,69668,shake the pot,shake,15,pot,29,['pot'],[29]
-P10_03_138,P10,P10_03,00:19:24.910,00:19:21.64,00:19:23.79,69698,69827,wash the bean curd,wash,2,curd:bean,81,['curd:bean'],[81]
-P10_03_139,P10,P10_03,00:19:26.440,00:19:25.45,00:19:26.42,69927,69985,put some bean curd into the pot,put-into,5,curd:bean,81,"['curd:bean', 'pot']","[81, 29]"
-P10_03_14,P10,P10_03,00:01:33.999,00:01:32.42,00:01:35.57,5545,5734,put the rice in the pot,put-in,5,rice,55,"['rice', 'pot']","[55, 29]"
-P10_03_140,P10,P10_03,00:19:30.150,00:19:27.76,00:19:31.78,70065,70306,pour some water into the pot,pour-into,9,water,27,"['water', 'pot']","[27, 29]"
-P10_03_141,P10,P10_03,00:19:42.830,00:19:38.09,00:19:41.74,70685,70904,put the cover on the top left pot,put-on,1,cover,89,"['cover', 'pot:left']","[89, 29]"
-P10_03_142,P10,P10_03,00:19:48.360,00:19:43.20,00:19:57.23,70992,71833,mix the cabbage,mix,10,cabbage,224,['cabbage'],[224]
-P10_03_143,P10,P10_03,00:20:06.890,00:20:04.84,00:20:06.70,72290,72402,get the cutting board,get,0,board:cutting,18,['board:cutting'],[18]
-P10_03_144,P10,P10_03,00:20:09.490,00:20:06.98,00:20:11.84,72418,72710,wash the cutting board,wash,2,board:cutting,18,['board:cutting'],[18]
-P10_03_145,P10,P10_03,00:20:14.299,00:20:11.16,00:20:14.36,72669,72861,put the cutting board back,put,1,board:cutting,18,['board:cutting'],[18]
-P10_03_146,P10,P10_03,00:20:19.039,00:20:15.97,00:20:18.65,72958,73119,wash the bowl,wash,2,bowl,7,['bowl'],[7]
-P10_03_147,P10,P10_03,00:20:24.660,00:20:20.89,00:20:26.15,73253,73569,mix the cabbage,mix,10,cabbage,224,['cabbage'],[224]
-P10_03_148,P10,P10_03,00:20:28.610,00:20:27.80,00:20:31.48,73668,73888,put some water into the cabbage,put-into,5,water,27,"['water', 'cabbage']","[27, 224]"
-P10_03_149,P10,P10_03,00:20:45.830,00:20:42.96,00:20:44.56,74577,74673,get the cover,get,0,cover,89,['cover'],[89]
-P10_03_15,P10,P10_03,00:01:43.670,00:01:42.59,00:01:46.06,6155,6363,put some water inside the pot,put-inside,5,water,27,"['water', 'pot']","[27, 29]"
-P10_03_150,P10,P10_03,00:20:48.160,00:20:45.52,00:20:46.89,74731,74813,put the cover on top of the pot,put-on,1,cover,89,"['cover', 'top', 'pot']","[89, 42, 29]"
-P10_03_151,P10,P10_03,00:20:50.260,00:20:47.50,00:20:49.72,74850,74983,shake another pot,shake,15,pot,29,['pot'],[29]
-P10_03_152,P10,P10_03,00:20:53.090,00:20:52.99,00:20:56.96,75179,75417,put some more salt into the bean curd,put-into,5,salt:more,38,"['salt:more', 'curd:bean']","[38, 81]"
-P10_03_153,P10,P10_03,00:21:03.890,00:20:58.08,00:21:00.99,75484,75659,put the cover back,put,1,cover,89,['cover'],[89]
-P10_03_154,P10,P10_03,00:21:07.320,00:21:05.51,00:21:06.26,75930,75975,open the cabinet,open,3,cabinet,3,['cabinet'],[3]
-P10_03_155,P10,P10_03,00:21:10.169,00:21:06.36,00:21:08.16,75981,76089,get some flour,get,0,flour,75,['flour'],[75]
-P10_03_156,P10,P10_03,00:21:13.100,00:21:08.06,00:21:17.80,76083,76668,put the flour into the bowl,put-into,5,flour,75,"['flour', 'bowl']","[75, 7]"
-P10_03_157,P10,P10_03,00:21:24.520,00:21:19.13,00:21:23.79,76747,77027,put the powder back,put,1,powder,138,['powder'],[138]
-P10_03_158,P10,P10_03,00:21:29.850,00:21:27.18,00:21:31.98,77230,77518,add some water into the bowl,add-into,46,water,27,"['water', 'bowl']","[27, 7]"
-P10_03_159,P10,P10_03,00:21:34.789,00:21:33.56,00:21:37.53,77613,77851,mix the water with the flour powder,mix-with,10,water,27,"['water', 'powder:flour']","[27, 75]"
-P10_03_16,P10,P10_03,00:01:48.060,00:01:46.02,00:01:50.67,6361,6640,mix wash the rice,mix,10,rice,55,['rice'],[55]
-P10_03_160,P10,P10_03,00:21:44.820,00:21:39.69,00:21:46.17,77981,78370,stir the water,stir,10,water,27,['water'],[27]
-P10_03_161,P10,P10_03,00:21:46.990,00:21:46.77,00:21:52.93,78406,78775,mix the powder with the water,mix-with,10,powder,138,"['powder', 'water']","[138, 27]"
-P10_03_162,P10,P10_03,00:22:00.460,00:21:53.22,00:22:09.92,78793,79795,mix the powder with the water,mix-with,10,powder,138,"['powder', 'water']","[138, 27]"
-P10_03_163,P10,P10_03,00:22:16.679,00:22:14.90,00:22:15.79,80094,80147,get some tap water,get,0,water:tap,0,['water:tap'],[0]
-P10_03_164,P10,P10_03,00:22:17.990,00:22:15.70,00:22:18.82,80142,80329,wash the glass bowl,wash,2,bowl:glass,7,['bowl:glass'],[7]
-P10_03_165,P10,P10_03,00:22:23.490,00:22:21.86,00:22:23.66,80511,80619,put the glass bowl on the top of the table,put-on,1,bowl:glass,7,"['bowl:glass', 'top', 'table']","[7, 42, 42]"
-P10_03_166,P10,P10_03,00:22:34.660,00:22:29.70,00:22:39.49,80982,81569,mix the cabbage,mix,10,cabbage,224,['cabbage'],[224]
-P10_03_167,P10,P10_03,00:22:52.679,00:22:49.65,00:22:52.70,82179,82362,put the oil back,put,1,oil,31,['oil'],[31]
-P10_03_168,P10,P10_03,00:22:57.710,00:22:54.08,00:23:00.97,82444,82858,put some tap water into the water filter,put-into,5,filter:tap:water,66,['filter:tap:water'],[66]
-P10_03_169,P10,P10_03,00:23:06.640,00:23:04.39,00:23:06.84,83063,83210,put the water filter on the table,put-on,1,filter:water,66,"['filter:water', 'table']","[66, 42]"
-P10_03_17,P10,P10_03,00:02:01.429,00:01:51.00,00:01:55.18,6660,6910,wash the rice,wash,2,rice,55,['rice'],[55]
-P10_03_170,P10,P10_03,00:23:14.200,00:23:12.20,00:23:18.06,83532,83883,mix the water with the flour,mix-with,10,water,27,"['water', 'flour']","[27, 75]"
-P10_03_171,P10,P10_03,00:23:36.090,00:23:22.21,00:23:23.45,84132,84207,open the cover of the pot,open,3,cover,89,"['cover', 'pot']","[89, 29]"
-P10_03_172,P10,P10_03,00:23:40.000,00:23:36.82,00:23:41.06,85009,85263,put powder and water inside the pot,put-inside,5,powder,138,"['powder', 'water', 'pot']","[138, 27, 29]"
-P10_03_173,P10,P10_03,00:23:48.919,00:23:48.09,00:23:49.85,85685,85791,put the cover back,put,1,cover,89,['cover'],[89]
-P10_03_174,P10,P10_03,00:24:09.230,00:23:54.80,00:24:02.21,86088,86532,wash the plastic box,wash,2,box:plastic,23,['box:plastic'],[23]
-P10_03_175,P10,P10_03,,00:24:10.35,00:24:16.03,87021,87361,used to brush the brush the plastic box,brush,57,brush,103,"['brush', 'box:plastic']","[103, 23]"
-P10_03_176,P10,P10_03,00:24:19.340,00:24:16.10,00:24:17.03,87366,87421,switch of the tap water,switch-of,8,water:tap,0,['water:tap'],[0]
-P10_03_177,P10,P10_03,00:24:22.100,00:24:19.75,00:24:22.13,87585,87727,put the box on the self,put-on,1,box,23,"['box', 'self']","[23, 247]"
-P10_03_178,P10,P10_03,00:24:30.250,00:24:27.48,00:24:29.57,88048,88174,clean the oven,clean,2,oven,46,['oven'],[46]
-P10_03_179,P10,P10_03,00:24:27.240,00:24:27.52,00:24:28.33,88051,88099,clean the table,clean,2,table,42,['table'],[42]
-P10_03_18,P10,P10_03,00:01:54.590,00:01:51.07,00:01:55.12,6664,6907,pour the water into the sink,pour-into,9,water,27,"['water', 'sink']","[27, 63]"
-P10_03_180,P10,P10_03,00:24:31.250,00:24:27.98,00:24:32.94,88078,88376,clean the table,clean,2,table,42,['table'],[42]
-P10_03_181,P10,P10_03,00:24:35.840,00:24:33.72,00:24:35.43,88423,88525,clean the sink,clean,2,sink,63,['sink'],[63]
-P10_03_182,P10,P10_03,00:24:40.750,00:24:37.16,00:24:39.64,88629,88778,open the pot,open,3,pot,29,['pot'],[29]
-P10_03_183,P10,P10_03,00:24:44.539,00:24:39.50,00:24:43.60,88770,89016,shake the pot,shake,15,pot,29,['pot'],[29]
-P10_03_184,P10,P10_03,00:24:53.549,00:24:51.12,00:24:57.03,89467,89821,wash the plate,wash,2,plate,2,['plate'],[2]
-P10_03_185,P10,P10_03,00:24:59.760,00:24:58.19,00:24:59.57,89891,89974,put the plate on top of the table,put-on,1,plate,2,"['plate', 'top', 'table']","[2, 42, 42]"
-P10_03_186,P10,P10_03,00:25:12.010,00:25:11.17,00:25:13.86,90670,90831,wash the bowl,wash,2,bowl,7,['bowl'],[7]
-P10_03_187,P10,P10_03,00:25:15.659,00:25:13.76,00:25:16.09,90825,90965,wash the chopstick,wash,2,chopstick,80,['chopstick'],[80]
-P10_03_188,P10,P10_03,00:25:24.890,00:25:28.91,00:25:32.61,91734,91956,put in bag on the low shelf,put-in,5,bag,19,"['bag', 'shelf:low']","[19, 247]"
-P10_03_189,P10,P10_03,00:25:34.370,00:25:32.71,00:25:36.18,91962,92170,wash the knife,wash,2,knife,4,['knife'],[4]
-P10_03_19,P10,P10_03,00:02:08.330,00:01:55.27,00:01:58.05,6916,7083,put some water into the pot and,put-into,5,water,27,"['water', 'pot']","[27, 29]"
-P10_03_190,P10,P10_03,00:25:37.480,00:25:35.59,00:25:38.87,92135,92332,put knife back on the shelf,put-on,1,knife,4,"['knife', 'shelf']","[4, 247]"
-P10_03_191,P10,P10_03,00:25:45.049,00:25:38.77,00:25:43.31,92326,92598,clean the sink,clean,2,sink,63,['sink'],[63]
-P10_03_192,P10,P10_03,00:25:47.450,00:25:43.36,00:25:46.34,92601,92780,put it into dustbin,put-into,5,dustbin,36,['dustbin'],[36]
-P10_03_193,P10,P10_03,00:25:49.630,00:25:48.10,00:25:49.15,92886,92949,put the cover of the sink back,put,1,cover,89,"['cover', 'sink']","[89, 63]"
+P10_03_0,P10,P10_03,00:00:06.129,00:00:05.76,00:00:08.15,345,489,put phone under cupboard,put-under,1,phone:mobile,165,"['phone:mobile', 'cabinet']","[165, 3]"
+P10_03_1,P10,P10_03,00:00:12.940,00:00:08.28,00:00:11.52,496,691,take apron,take,0,apron,199,['apron'],[199]
+P10_03_10,P10,P10_03,00:01:06.430,00:01:01.78,00:01:06.07,3706,3964,put chopping board,put,1,board:cut,18,['board:cut'],[18]
+P10_03_100,P10,P10_03,00:13:48.000,00:13:39.47,00:13:55.42,49168,50125,wash it and remove water,wash,2,water,27,['water'],[27]
+P10_03_101,P10,P10_03,00:14:02.410,00:14:01.41,00:14:02.48,50484,50548,put water in pot,put-in,5,water,27,"['water', 'pot']","[27, 29]"
+P10_03_102,P10,P10_03,00:14:05.750,00:14:03.96,00:14:07.09,50637,50825,take pot,get,0,pot,29,['pot'],[29]
+P10_03_103,P10,P10_03,00:14:11.300,00:14:06.94,00:14:14.48,50816,51268,put water into pot and brush it,put-into,5,water,27,"['water', 'pot']","[27, 29]"
+P10_03_104,P10,P10_03,00:14:19.140,00:14:14.10,00:14:19.13,51246,51547,use water it again and put it on oven,put-on,1,wash:water,27,"['wash:water', 'oven']","[27, 46]"
+P10_03_105,P10,P10_03,00:14:24.920,00:14:23.38,00:14:28.95,51802,52137,switch on oven,switch-on,6,oven,46,['oven'],[46]
+P10_03_106,P10,P10_03,00:14:39.790,00:14:31.58,00:14:36.40,52294,52584,use cloth to wash oven,clean,2,cloth,17,"['cloth', 'oven']","[17, 46]"
+P10_03_107,P10,P10_03,00:14:44.480,00:14:42.59,00:14:48.19,52955,53291,brush pot,brush,57,pot,29,['pot'],[29]
+P10_03_108,P10,P10_03,00:14:53.380,00:14:51.39,00:14:52.39,53483,53543,put pot on oven too,put-on,1,pot:second,29,"['pot:second', 'oven']","[29, 46]"
+P10_03_109,P10,P10_03,00:14:57.930,00:14:56.05,00:14:57.77,53763,53866,put knife into shelf,put-into,5,knife,4,"['knife', 'shelf']","[4, 247]"
+P10_03_11,P10,P10_03,00:01:18.159,00:01:06.02,00:01:20.17,3961,4810,take rice,get,0,rice,55,['rice'],[55]
+P10_03_110,P10,P10_03,00:15:11.950,00:14:58.03,00:14:59.87,53881,53992,switch on oven,switch-on,6,oven,46,['oven'],[46]
+P10_03_111,P10,P10_03,00:15:14.350,00:15:11.12,00:15:13.01,54667,54780,take oil,get,0,oil,31,['oil'],[31]
+P10_03_112,P10,P10_03,00:15:17.070,00:15:13.91,00:15:23.46,54834,55407,cut cabbage into smaller piece,make,7,cabbage,224,['cabbage'],[224]
+P10_03_113,P10,P10_03,00:15:21.510,00:15:24.31,00:16:31.45,55458,59487,cut into cabbage smaller pieces,make-into,7,cabbage,224,['cabbage'],[224]
+P10_03_114,P10,P10_03,00:15:55.889,00:16:32.61,00:16:37.82,59556,59869,put oil into pot,put-into,5,oil:more,31,"['oil:more', 'pot']","[31, 29]"
+P10_03_115,P10,P10_03,00:16:41.279,00:16:39.52,00:16:44.02,59971,60241,shake pot to make oil evenly cover bottle pot,shake,15,pot,29,"['pot', 'oil', 'bottom:bottle', 'pot']","[29, 31, 15, 29]"
+P10_03_116,P10,P10_03,00:16:50.050,00:16:47.22,00:16:49.53,60433,60571,put spreads inside pot,put-inside,5,honey,115,"['honey', 'pot']","[115, 29]"
+P10_03_117,P10,P10_03,00:16:55.900,00:16:54.46,00:16:57.05,60867,61023,put chilli inside pot,put-inside,5,pepper:chilli,69,"['pepper:chilli', 'pot']","[69, 29]"
+P10_03_118,P10,P10_03,00:17:05.079,00:17:02.97,00:17:06.21,61378,61572,put oil into pot,put-into,5,oil,31,"['oil', 'pot:second']","[31, 29]"
+P10_03_119,P10,P10_03,00:17:10.029,00:17:07.82,00:17:10.94,61669,61856,shake pot,shake,15,pot:first,29,['pot:first'],[29]
+P10_03_12,P10,P10_03,00:01:22.509,00:01:21.36,00:01:23.59,4881,5015,put rice into pot,put-into,5,rice,55,"['rice', 'pot']","[55, 29]"
+P10_03_120,P10,P10_03,00:17:13.180,00:17:11.49,00:17:12.92,61889,61975,take spoon,get,0,spade,1,['spade'],[1]
+P10_03_121,P10,P10_03,00:17:18.819,00:17:17.65,00:17:22.85,62259,62570,put ginger and onion into pot,put-into,5,ginger,131,"['ginger', 'onion', 'pot:second']","[131, 16, 29]"
+P10_03_122,P10,P10_03,00:17:26.630,00:17:25.01,00:17:27.71,62700,62862,shake pot,shake,15,pot:first,29,['pot:first'],[29]
+P10_03_123,P10,P10_03,00:17:29.450,00:17:27.81,00:17:32.86,62868,63171,put cabbages in pot,put-in,5,piece:cabbage,224,"['piece:cabbage', 'pot:first']","[224, 29]"
+P10_03_124,P10,P10_03,00:17:34.590,00:17:32.87,00:17:34.97,63172,63298,shake pot,shake,15,pot:second,29,['pot:second'],[29]
+P10_03_125,P10,P10_03,00:17:35.880,00:17:35.47,00:17:47.51,63328,64050,put cabbage into pot,put-into,5,fragment:cabbage,224,"['fragment:cabbage', 'pot']","[224, 29]"
+P10_03_126,P10,P10_03,00:17:53.919,00:17:50.68,00:17:54.04,64240,64442,mix onion,mix,10,onion,16,['onion'],[16]
+P10_03_127,P10,P10_03,00:17:55.740,00:17:54.14,00:17:57.06,64448,64623,put shrimp inside pot,put-inside,5,shrimp,253,"['shrimp', 'pot']","[253, 29]"
+P10_03_128,P10,P10_03,00:18:02.890,00:18:00.23,00:18:13.14,64813,65588,mix cabbage,mix,10,cabbage,224,['cabbage'],[224]
+P10_03_129,P10,P10_03,00:18:18.380,00:18:14.96,00:18:21.12,65697,66067,take bottle,grab,0,bottle:bean:curd,15,['bottle:bean:curd'],[15]
+P10_03_13,P10,P10_03,00:01:31.469,00:01:23.95,00:01:32.56,5037,5553,take rice,get,0,rice,55,['rice'],[55]
+P10_03_130,P10,P10_03,00:18:31.710,00:18:28.00,00:18:34.53,66480,66871,put paste into pot,put-into,5,source:bean,148,"['source:bean', 'pot']","[148, 29]"
+P10_03_131,P10,P10_03,00:18:41.390,00:18:37.24,00:18:43.50,67034,67410,put salt inside pot,put-inside,5,salt,38,"['salt', 'pot']","[38, 29]"
+P10_03_132,P10,P10_03,00:18:47.020,00:18:45.00,00:18:54.41,67500,68064,mix cabbage,mix,10,cabbage,224,['cabbage'],[224]
+P10_03_133,P10,P10_03,,00:18:54.85,00:19:02.59,68091,68555,mix shrimp with onions,stir,10,shrimp,253,"['shrimp', 'fragment:onion']","[253, 16]"
+P10_03_134,P10,P10_03,00:19:09.490,00:19:04.16,00:19:13.78,68649,69226,put tofu into pot,put-into,5,slice:bean:curd,81,"['slice:bean:curd', 'pot']","[81, 29]"
+P10_03_135,P10,P10_03,00:19:16.830,00:19:14.35,00:19:15.65,69261,69339,put chopping board back,put,1,board:cutting,18,['board:cutting'],[18]
+P10_03_136,P10,P10_03,00:19:19.040,00:19:16.23,00:19:18.79,69373,69527,press tofu,collapse,21,curd:bean,81,['curd:bean'],[81]
+P10_03_137,P10,P10_03,00:19:22.010,00:19:19.35,00:19:21.14,69561,69668,shake pot,shake,15,pot,29,['pot'],[29]
+P10_03_138,P10,P10_03,00:19:24.910,00:19:21.64,00:19:23.79,69698,69827,wash tofu,wash,2,curd:bean,81,['curd:bean'],[81]
+P10_03_139,P10,P10_03,00:19:26.440,00:19:25.45,00:19:26.42,69927,69985,put tofu into pot,put-into,5,curd:bean,81,"['curd:bean', 'pot']","[81, 29]"
+P10_03_14,P10,P10_03,00:01:33.999,00:01:32.42,00:01:35.57,5545,5734,put rice in pot,put-in,5,rice,55,"['rice', 'pot']","[55, 29]"
+P10_03_140,P10,P10_03,00:19:30.150,00:19:27.76,00:19:31.78,70065,70306,pour water into pot,pour-into,9,water,27,"['water', 'pot']","[27, 29]"
+P10_03_141,P10,P10_03,00:19:42.830,00:19:38.09,00:19:41.74,70685,70904,put cover on top pot,put-on,1,cover,89,"['cover', 'pot:left']","[89, 29]"
+P10_03_142,P10,P10_03,00:19:48.360,00:19:43.20,00:19:57.23,70992,71833,mix cabbage,mix,10,cabbage,224,['cabbage'],[224]
+P10_03_143,P10,P10_03,00:20:06.890,00:20:04.84,00:20:06.70,72290,72402,take chopping board,get,0,board:cutting,18,['board:cutting'],[18]
+P10_03_144,P10,P10_03,00:20:09.490,00:20:06.98,00:20:11.84,72418,72710,wash chopping board,wash,2,board:cutting,18,['board:cutting'],[18]
+P10_03_145,P10,P10_03,00:20:14.299,00:20:11.16,00:20:14.36,72669,72861,put chopping board back,put,1,board:cutting,18,['board:cutting'],[18]
+P10_03_146,P10,P10_03,00:20:19.039,00:20:15.97,00:20:18.65,72958,73119,wash bowl,wash,2,bowl,7,['bowl'],[7]
+P10_03_147,P10,P10_03,00:20:24.660,00:20:20.89,00:20:26.15,73253,73569,mix cabbage,mix,10,cabbage,224,['cabbage'],[224]
+P10_03_148,P10,P10_03,00:20:28.610,00:20:27.80,00:20:31.48,73668,73888,put water into cabbage,put-into,5,water,27,"['water', 'cabbage']","[27, 224]"
+P10_03_149,P10,P10_03,00:20:45.830,00:20:42.96,00:20:44.56,74577,74673,take cover,get,0,cover,89,['cover'],[89]
+P10_03_15,P10,P10_03,00:01:43.670,00:01:42.59,00:01:46.06,6155,6363,put water inside pot,put-inside,5,water,27,"['water', 'pot']","[27, 29]"
+P10_03_150,P10,P10_03,00:20:48.160,00:20:45.52,00:20:46.89,74731,74813,put cover on surface pot,put-on,1,cover,89,"['cover', 'top', 'pot']","[89, 42, 29]"
+P10_03_151,P10,P10_03,00:20:50.260,00:20:47.50,00:20:49.72,74850,74983,shake pot,shake,15,pot,29,['pot'],[29]
+P10_03_152,P10,P10_03,00:20:53.090,00:20:52.99,00:20:56.96,75179,75417,put salt into tofu,put-into,5,salt:more,38,"['salt:more', 'curd:bean']","[38, 81]"
+P10_03_153,P10,P10_03,00:21:03.890,00:20:58.08,00:21:00.99,75484,75659,put cover back,put,1,cover,89,['cover'],[89]
+P10_03_154,P10,P10_03,00:21:07.320,00:21:05.51,00:21:06.26,75930,75975,open cupboard,open,3,cabinet,3,['cabinet'],[3]
+P10_03_155,P10,P10_03,00:21:10.169,00:21:06.36,00:21:08.16,75981,76089,take flour,get,0,flour,75,['flour'],[75]
+P10_03_156,P10,P10_03,00:21:13.100,00:21:08.06,00:21:17.80,76083,76668,put flour into bowl,put-into,5,flour,75,"['flour', 'bowl']","[75, 7]"
+P10_03_157,P10,P10_03,00:21:24.520,00:21:19.13,00:21:23.79,76747,77027,put powder back,put,1,powder,138,['powder'],[138]
+P10_03_158,P10,P10_03,00:21:29.850,00:21:27.18,00:21:31.98,77230,77518,add water into bowl,add-into,46,water,27,"['water', 'bowl']","[27, 7]"
+P10_03_159,P10,P10_03,00:21:34.789,00:21:33.56,00:21:37.53,77613,77851,mix water with flour,mix-with,10,water,27,"['water', 'powder:flour']","[27, 75]"
+P10_03_16,P10,P10_03,00:01:48.060,00:01:46.02,00:01:50.67,6361,6640,mix wash rice,mix,10,rice,55,['rice'],[55]
+P10_03_160,P10,P10_03,00:21:44.820,00:21:39.69,00:21:46.17,77981,78370,mix water,stir,10,water,27,['water'],[27]
+P10_03_161,P10,P10_03,00:21:46.990,00:21:46.77,00:21:52.93,78406,78775,mix powder with water,mix-with,10,powder,138,"['powder', 'water']","[138, 27]"
+P10_03_162,P10,P10_03,00:22:00.460,00:21:53.22,00:22:09.92,78793,79795,mix powder with water,mix-with,10,powder,138,"['powder', 'water']","[138, 27]"
+P10_03_163,P10,P10_03,00:22:16.679,00:22:14.90,00:22:15.79,80094,80147,take tap,get,0,water:tap,0,['water:tap'],[0]
+P10_03_164,P10,P10_03,00:22:17.990,00:22:15.70,00:22:18.82,80142,80329,wash bowl,wash,2,bowl:glass,7,['bowl:glass'],[7]
+P10_03_165,P10,P10_03,00:22:23.490,00:22:21.86,00:22:23.66,80511,80619,put bowl on surface,put-on,1,bowl:glass,7,"['bowl:glass', 'top', 'table']","[7, 42, 42]"
+P10_03_166,P10,P10_03,00:22:34.660,00:22:29.70,00:22:39.49,80982,81569,mix cabbage,mix,10,cabbage,224,['cabbage'],[224]
+P10_03_167,P10,P10_03,00:22:52.679,00:22:49.65,00:22:52.70,82179,82362,put oil back,put,1,oil,31,['oil'],[31]
+P10_03_168,P10,P10_03,00:22:57.710,00:22:54.08,00:23:00.97,82444,82858,put water into jug,put-into,5,filter:tap:water,66,['filter:tap:water'],[66]
+P10_03_169,P10,P10_03,00:23:06.640,00:23:04.39,00:23:06.84,83063,83210,put jug on surface,put-on,1,filter:water,66,"['filter:water', 'table']","[66, 42]"
+P10_03_17,P10,P10_03,00:02:01.429,00:01:51.00,00:01:55.18,6660,6910,wash rice,wash,2,rice,55,['rice'],[55]
+P10_03_170,P10,P10_03,00:23:14.200,00:23:12.20,00:23:18.06,83532,83883,mix water with flour,mix-with,10,water,27,"['water', 'flour']","[27, 75]"
+P10_03_171,P10,P10_03,00:23:36.090,00:23:22.21,00:23:23.45,84132,84207,open cover pot,open,3,cover,89,"['cover', 'pot']","[89, 29]"
+P10_03_172,P10,P10_03,00:23:40.000,00:23:36.82,00:23:41.06,85009,85263,put powder and water inside pot,put-inside,5,powder,138,"['powder', 'water', 'pot']","[138, 27, 29]"
+P10_03_173,P10,P10_03,00:23:48.919,00:23:48.09,00:23:49.85,85685,85791,put cover back,put,1,cover,89,['cover'],[89]
+P10_03_174,P10,P10_03,00:24:09.230,00:23:54.80,00:24:02.21,86088,86532,wash box,wash,2,box:plastic,23,['box:plastic'],[23]
+P10_03_175,P10,P10_03,,00:24:10.35,00:24:16.03,87021,87361,used to brush box,brush,57,brush,103,"['brush', 'box:plastic']","[103, 23]"
+P10_03_176,P10,P10_03,00:24:19.340,00:24:16.10,00:24:17.03,87366,87421,switch tap,switch-of,8,water:tap,0,['water:tap'],[0]
+P10_03_177,P10,P10_03,00:24:22.100,00:24:19.75,00:24:22.13,87585,87727,put box on shelf,put-on,1,box,23,"['box', 'self']","[23, 247]"
+P10_03_178,P10,P10_03,00:24:30.250,00:24:27.48,00:24:29.57,88048,88174,wash oven,clean,2,oven,46,['oven'],[46]
+P10_03_179,P10,P10_03,00:24:27.240,00:24:27.52,00:24:28.33,88051,88099,wash surface,clean,2,table,42,['table'],[42]
+P10_03_18,P10,P10_03,00:01:54.590,00:01:51.07,00:01:55.12,6664,6907,pour water into sink,pour-into,9,water,27,"['water', 'sink']","[27, 63]"
+P10_03_180,P10,P10_03,00:24:31.250,00:24:27.98,00:24:32.94,88078,88376,wash surface,clean,2,table,42,['table'],[42]
+P10_03_181,P10,P10_03,00:24:35.840,00:24:33.72,00:24:35.43,88423,88525,wash sink,clean,2,sink,63,['sink'],[63]
+P10_03_182,P10,P10_03,00:24:40.750,00:24:37.16,00:24:39.64,88629,88778,open pot,open,3,pot,29,['pot'],[29]
+P10_03_183,P10,P10_03,00:24:44.539,00:24:39.50,00:24:43.60,88770,89016,shake pot,shake,15,pot,29,['pot'],[29]
+P10_03_184,P10,P10_03,00:24:53.549,00:24:51.12,00:24:57.03,89467,89821,wash plate,wash,2,plate,2,['plate'],[2]
+P10_03_185,P10,P10_03,00:24:59.760,00:24:58.19,00:24:59.57,89891,89974,put plate on surface,put-on,1,plate,2,"['plate', 'top', 'table']","[2, 42, 42]"
+P10_03_186,P10,P10_03,00:25:12.010,00:25:11.17,00:25:13.86,90670,90831,wash bowl,wash,2,bowl,7,['bowl'],[7]
+P10_03_187,P10,P10_03,00:25:15.659,00:25:13.76,00:25:16.09,90825,90965,wash chopstick,wash,2,chopstick,80,['chopstick'],[80]
+P10_03_188,P10,P10_03,00:25:24.890,00:25:28.91,00:25:32.61,91734,91956,put bag on in shelf,put-in,5,bag,19,"['bag', 'shelf:low']","[19, 247]"
+P10_03_189,P10,P10_03,00:25:34.370,00:25:32.71,00:25:36.18,91962,92170,wash knife,wash,2,knife,4,['knife'],[4]
+P10_03_19,P10,P10_03,00:02:08.330,00:01:55.27,00:01:58.05,6916,7083,put water into pot and,put-into,5,water,27,"['water', 'pot']","[27, 29]"
+P10_03_190,P10,P10_03,00:25:37.480,00:25:35.59,00:25:38.87,92135,92332,put knife back on shelf,put-on,1,knife,4,"['knife', 'shelf']","[4, 247]"
+P10_03_191,P10,P10_03,00:25:45.049,00:25:38.77,00:25:43.31,92326,92598,wash sink,clean,2,sink,63,['sink'],[63]
+P10_03_192,P10,P10_03,00:25:47.450,00:25:43.36,00:25:46.34,92601,92780,put it into bin,put-into,5,dustbin,36,['dustbin'],[36]
+P10_03_193,P10,P10_03,00:25:49.630,00:25:48.10,00:25:49.15,92886,92949,put cover sink back,put,1,cover,89,"['cover', 'sink']","[89, 63]"
 P10_03_194,P10,P10_03,00:25:52.020,00:25:49.82,00:25:52.80,92989,93168,wash hand,wash,2,hand,11,['hand'],[11]
-P10_03_195,P10,P10_03,00:25:57.640,00:25:55.61,00:25:58.08,93336,93484,clean the oven,clean,2,oven,46,['oven'],[46]
-P10_03_196,P10,P10_03,00:25:59.120,00:25:57.97,00:26:14.09,93478,94445,clean the table,clean,2,table,42,['table'],[42]
-P10_03_197,P10,P10_03,00:26:29.610,00:26:22.60,00:26:42.64,94956,96158,wash the cloths,wash,2,cloth,17,['cloth'],[17]
-P10_03_198,P10,P10_03,00:26:39.789,00:26:35.20,00:26:41.96,95712,96117,remove the water from the clothes,remove-from,12,water,27,"['water', 'clothes']","[27, 73]"
-P10_03_199,P10,P10_03,00:26:46.080,00:26:43.35,00:26:56.67,96201,97000,clean the oven,clean,2,oven,46,['oven'],[46]
-P10_03_2,P10,P10_03,00:00:14.330,00:00:11.95,00:00:14.62,717,877,wearing the apron,wear,68,apron,199,['apron'],[199]
-P10_03_20,P10,P10_03,00:02:12.510,00:01:57.89,00:01:59.96,7073,7197,mix it with the rice,mix-with,10,rice,55,['rice'],[55]
-P10_03_200,P10,P10_03,00:26:48.240,00:26:56.77,00:26:58.40,97006,97104,check the pot,check,24,pot,29,['pot'],[29]
-P10_03_201,P10,P10_03,00:27:02.260,00:26:59.59,00:27:01.68,97175,97300,put the cover,put,1,cover,89,['cover'],[89]
-P10_03_202,P10,P10_03,00:27:07.710,00:27:04.95,00:27:06.58,97497,97594,remove the water from the glass bowl,remove-from,12,water,27,"['water', 'bowl:glass']","[27, 7]"
-P10_03_203,P10,P10_03,00:27:10.549,00:27:07.57,00:27:11.23,97654,97873,put the cooked bean curd into the glass bowl,put-into,5,curd:cooked:bean,81,"['curd:cooked:bean', 'bowl:glass']","[81, 7]"
-P10_03_204,P10,P10_03,00:27:20.179,00:27:18.86,00:27:19.91,98331,98394,put the pot into the sink,put-into,5,pot,29,"['pot', 'sink']","[29, 63]"
-P10_03_205,P10,P10_03,00:27:23.049,00:27:19.60,00:27:25.38,98376,98722,open the tap water and wash the food spade and the pot,open,3,water:tap,0,"['water:tap', 'spade:food', 'pot']","[0, 1, 29]"
-P10_03_206,P10,P10_03,00:27:35.490,00:27:33.84,00:27:38.43,99230,99505,put board back into the utensil shelf,put-into,5,board,18,"['board', 'shelf:utensil']","[18, 247]"
-P10_03_207,P10,P10_03,00:27:45.250,00:27:42.89,00:27:44.96,99773,99897,open the cover of another bowl another pot,open,3,cover,89,"['cover', 'bowl', 'pot']","[89, 7, 29]"
-P10_03_208,P10,P10_03,00:27:52.060,00:27:49.26,00:27:50.78,100155,100246,put the plate on the tabletop,put-on,1,plate,2,"['plate', 'tabletop']","[2, 42]"
-P10_03_209,P10,P10_03,00:27:57.400,00:27:51.06,00:28:07.31,100263,101238,put the cooked cabbage into the plate,put-into,5,cabbage:cooked,224,"['cabbage:cooked', 'plate']","[224, 2]"
-P10_03_21,P10,P10_03,00:02:18.750,00:02:17.83,00:02:20.05,8269,8403,put the pot into the electric pot,put-into,5,pot,29,"['pot', 'pot:electric']","[29, 152]"
-P10_03_210,P10,P10_03,00:28:11.539,00:28:08.55,00:28:11.30,101313,101478,put the pot back into the sink,put,1,pot,29,"['pot', 'sink']","[29, 63]"
-P10_03_211,P10,P10_03,00:28:15.690,00:28:11.63,00:28:15.43,101497,101725,wash it with the tap water,wash-with,2,water:tap,0,['water:tap'],[0]
-P10_03_212,P10,P10_03,00:28:17.460,00:28:16.13,00:28:18.83,101767,101929,put the plate on the table on the round table,put-on,1,plate,2,"['plate', 'table', 'table:round']","[2, 42, 42]"
-P10_03_213,P10,P10_03,00:28:27.000,00:28:19.43,00:28:29.18,101965,102550,use the cover to cover the food,cover,36,food,34,['food'],[34]
-P10_03_214,P10,P10_03,00:28:34.630,00:28:31.03,00:28:45.28,102661,103516,use the brush to clean the food,clean,2,brush,103,"['brush', 'food']","[103, 34]"
-P10_03_215,P10,P10_03,00:28:38.850,00:28:39.70,00:28:41.70,103182,103302,clean the fork,clean,2,fork,14,['fork'],[14]
-P10_03_216,P10,P10_03,00:28:47.779,00:28:45.04,00:28:47.80,103502,103668,pour the water,pour,9,water,27,['water'],[27]
-P10_03_217,P10,P10_03,00:28:58.740,00:28:49.03,00:29:05.06,103741,104703,clean the pot and the food spade again,clean,2,pot,29,"['pot', 'spade:food']","[29, 1]"
-P10_03_218,P10,P10_03,00:28:54.070,00:28:50.99,00:28:54.57,103859,104074,add some cleaning liquid on the brusher,add-on,27,liquid:cleaning,22,"['liquid:cleaning', 'brusher']","[22, 103]"
-P10_03_219,P10,P10_03,00:29:02.480,00:28:57.99,00:29:08.42,104279,104905,brush the food pot,brush,57,pot:food,29,['pot:food'],[29]
-P10_03_22,P10,P10_03,00:02:26.940,00:02:24.64,00:02:26.86,8678,8811,add some more water,add,46,water:more,27,['water:more'],[27]
-P10_03_220,P10,P10_03,00:29:13.000,00:29:08.52,00:29:14.57,104911,105274,wash the food spade with tap water,wash-with,2,spade:food,1,"['spade:food', 'water:tap']","[1, 0]"
-P10_03_221,P10,P10_03,00:29:20.210,00:29:17.77,00:29:19.54,105466,105572,remove the water,remove,12,water,27,['water'],[27]
-P10_03_222,P10,P10_03,00:29:21.210,00:29:22.95,00:29:25.48,105777,105928,check another pot,check,24,pot,29,['pot'],[29]
-P10_03_223,P10,P10_03,00:29:30.990,00:29:29.01,00:29:31.51,106140,106290,put the steamer on top of the oven,put-on,1,steamer,152,"['steamer', 'top', 'oven']","[152, 42, 46]"
-P10_03_224,P10,P10_03,00:29:40.059,00:29:36.77,00:29:41.71,106606,106902,clean the cover of the pot,clean,2,cover,89,"['cover', 'pot']","[89, 29]"
-P10_03_225,P10,P10_03,00:29:45.380,00:29:41.81,00:29:44.75,106908,107085,put the cover on the utensil shelf,put-on,1,cover,89,"['cover', 'shelf:utensil']","[89, 247]"
-P10_03_226,P10,P10_03,00:29:51.260,00:29:45.55,00:29:52.30,107133,107538,brush the pot,brush,57,pot,29,['pot'],[29]
-P10_03_227,P10,P10_03,00:29:59.990,00:29:49.25,00:29:52.25,107355,107535,wash the pot,wash,2,pot,29,['pot'],[29]
-P10_03_228,P10,P10_03,00:30:04.299,00:29:52.97,00:30:03.93,107578,108235,wash the pot,wash,2,pot,29,['pot'],[29]
-P10_03_229,P10,P10_03,00:29:54.880,00:29:53.21,00:29:58.61,107592,107916,use tap water to wash the pot,wash,2,water:tap,0,"['water:tap', 'pot']","[0, 29]"
-P10_03_23,P10,P10_03,00:02:36.880,00:02:34.13,00:02:35.28,9247,9316,close the cover,close,4,cover,89,['cover'],[89]
-P10_03_230,P10,P10_03,00:30:08.240,00:30:02.21,00:30:08.28,108132,108496,wash the brusher,wash,2,brusher,103,['brusher'],[103]
-P10_03_231,P10,P10_03,00:30:09.960,00:30:08.82,00:30:09.68,108529,108580,put the brusher on one side,put-on,1,brusher,103,"['brusher', 'side']","[103, 42]"
-P10_03_232,P10,P10_03,00:30:17.289,00:30:14.40,00:30:17.97,108864,109078,put the pot on the utensil shelf,put-on,1,pot,29,"['pot', 'shelf:utensil']","[29, 247]"
-P10_03_233,P10,P10_03,00:30:19.850,00:30:22.30,00:30:23.89,109338,109433,put the on utensil shelf,put-on,1,shelf:utensil,247,['shelf:utensil'],[247]
-P10_03_234,P10,P10_03,00:30:27.480,00:30:24.17,00:30:27.98,109450,109678,clean hand with cloth,clean-with,2,hand,11,"['hand', 'cloth']","[11, 17]"
-P10_03_235,P10,P10_03,00:30:31.440,00:30:28.71,00:30:31.04,109722,109862,put cloth on one side of the sink,put-on,1,cloth,17,"['cloth', 'side', 'sink']","[17, 42, 63]"
-P10_03_236,P10,P10_03,00:30:35.400,00:30:31.89,00:30:35.10,109913,110106,switch off the fans,switch-off,8,fan,179,['fan'],[179]
-P10_03_24,P10,P10_03,00:02:39.240,00:02:35.49,00:02:40.59,9329,9635,switch on the electric cooker,switch-on,6,cooker:electric,152,['cooker:electric'],[152]
-P10_03_25,P10,P10_03,00:02:47.230,00:02:46.15,00:02:51.56,9969,10293,add some more water into the water filter,add-into,46,filter:more:water,66,['filter:more:water'],[66]
-P10_03_26,P10,P10_03,00:02:59.890,00:02:58.54,00:03:00.12,10712,10807,switch on the light and the fans,switch-on,6,light,114,"['light', 'fan']","[114, 179]"
-P10_03_27,P10,P10_03,00:03:05.590,00:03:01.04,00:03:05.78,10862,11146,put the board on the table,put-on,1,board,18,"['board', 'table']","[18, 42]"
-P10_03_28,P10,P10_03,00:03:13.760,00:03:12.81,00:03:15.87,11568,11752,use knife to cut open the clothes of the cab,cut,7,knife,4,"['knife', 'clothes', 'cab']","[4, 73, 224]"
-P10_03_29,P10,P10_03,00:03:22.870,00:03:17.11,00:03:24.63,11826,12277,remove the cover,remove,12,cover,89,['cover'],[89]
-P10_03_3,P10,P10_03,00:00:19.500,00:00:17.87,00:00:19.12,1072,1147,switch on the light,switch-on,6,light,114,['light'],[114]
-P10_03_30,P10,P10_03,00:03:29.830,00:03:27.75,00:03:42.83,12465,13369,use the knife to cut to remove the dirty skin of the cabbage,cut,7,knife,4,"['knife', 'skin:dirty', 'cabbage']","[4, 48, 224]"
-P10_03_31,P10,P10_03,00:03:47.870,00:03:39.10,00:03:48.48,13146,13708,remove the skin of the cabbage,remove,12,skin,48,"['skin', 'cabbage']","[48, 224]"
-P10_03_32,P10,P10_03,00:03:57.960,00:03:54.13,00:03:57.28,14047,14236,grab a plate,grab,0,plate,2,['plate'],[2]
-P10_03_33,P10,P10_03,,00:03:57.38,00:04:02.13,14242,14527,grab a glass bowl,grab,0,bowl:glass,7,['bowl:glass'],[7]
-P10_03_34,P10,P10_03,00:04:09.290,00:04:07.40,00:04:33.45,14844,16407,peel off the leaves of the cabbage,peel-off,19,leaf,62,"['leaf', 'cabbage']","[62, 224]"
-P10_03_35,P10,P10_03,,00:04:13.89,00:04:14.59,15233,15275,put them inside the glass bowl,put-inside,5,bowl:glass,7,['bowl:glass'],[7]
-P10_03_36,P10,P10_03,00:04:51.910,00:04:14.69,00:04:23.20,15281,15792,peel off the cabbage,peel-off,19,cabbage,224,['cabbage'],[224]
-P10_03_37,P10,P10_03,00:05:02.530,00:04:23.30,00:04:42.28,15798,16936,peel off the cabbage,peel-off,19,cabbage,224,['cabbage'],[224]
-P10_03_38,P10,P10_03,00:06:00.250,00:05:56.63,00:06:00.47,21397,21628,put the cabbage in the boxes,put-in,5,cabbage,224,"['cabbage', 'box']","[224, 23]"
-P10_03_39,P10,P10_03,00:06:05.610,00:06:03.58,00:06:06.12,21814,21967,add some water into the glass table,add-into,46,water,27,"['water', 'table:glass']","[27, 7]"
-P10_03_4,P10,P10_03,00:00:30.499,00:00:28.45,00:00:29.67,1707,1780,grab a pot,grab,0,pot,29,['pot'],[29]
-P10_03_40,P10,P10_03,00:06:09.419,00:06:06.56,00:06:10.26,21993,22215,use the knife to remove some skin from the,remove-from,12,knife,4,"['knife', 'skin']","[4, 48]"
-P10_03_41,P10,P10_03,00:06:16.470,00:06:11.27,00:06:21.59,22276,22895,wash the,wash,2,cabbage,224,['cabbage'],[224]
-P10_03_42,P10,P10_03,00:06:35.669,00:06:32.95,00:06:43.27,23577,24196,wash the vegetable,wash,2,vegetable,94,['vegetable'],[94]
-P10_03_43,P10,P10_03,00:06:44.840,00:06:43.38,00:06:44.05,24202,24243,switch off the water tap,switch-off,8,tap:water,0,['tap:water'],[0]
-P10_03_44,P10,P10_03,00:06:52.470,00:06:48.42,00:06:52.89,24505,24773,remove the water,remove,12,water,27,['water'],[27]
-P10_03_45,P10,P10_03,00:06:53.640,00:06:53.23,00:06:57.39,24793,25043,collect the,collect,63,cabbage,224,['cabbage'],[224]
-P10_03_46,P10,P10_03,00:07:00.270,00:06:57.07,00:06:59.99,25024,25199,wash it,wash,2,water,27,['water'],[27]
-P10_03_47,P10,P10_03,00:07:01.270,00:07:00.09,00:07:01.91,25205,25314,put it into the glass bowl,put-into,5,bowl:glass,7,['bowl:glass'],[7]
-P10_03_48,P10,P10_03,00:07:05.960,00:07:01.77,00:07:05.32,25306,25519,put a glass bowl on the table,put-on,1,bowl:glass,7,"['bowl:glass', 'table']","[7, 42]"
-P10_03_49,P10,P10_03,00:07:09.970,00:07:07.80,00:07:08.99,25668,25739,open the refrigerator,open,3,refrigerator,12,['refrigerator'],[12]
+P10_03_195,P10,P10_03,00:25:57.640,00:25:55.61,00:25:58.08,93336,93484,wash oven,clean,2,oven,46,['oven'],[46]
+P10_03_196,P10,P10_03,00:25:59.120,00:25:57.97,00:26:14.09,93478,94445,wash surface,clean,2,table,42,['table'],[42]
+P10_03_197,P10,P10_03,00:26:29.610,00:26:22.60,00:26:42.64,94956,96158,wash cloths,wash,2,cloth,17,['cloth'],[17]
+P10_03_198,P10,P10_03,00:26:39.789,00:26:35.20,00:26:41.96,95712,96117,remove water from clothes,remove-from,12,water,27,"['water', 'clothes']","[27, 73]"
+P10_03_199,P10,P10_03,00:26:46.080,00:26:43.35,00:26:56.67,96201,97000,wash oven,clean,2,oven,46,['oven'],[46]
+P10_03_2,P10,P10_03,00:00:14.330,00:00:11.95,00:00:14.62,717,877,wear apron,wear,68,apron,199,['apron'],[199]
+P10_03_20,P10,P10_03,00:02:12.510,00:01:57.89,00:01:59.96,7073,7197,mix it with rice,mix-with,10,rice,55,['rice'],[55]
+P10_03_200,P10,P10_03,00:26:48.240,00:26:56.77,00:26:58.40,97006,97104,check pot,check,24,pot,29,['pot'],[29]
+P10_03_201,P10,P10_03,00:27:02.260,00:26:59.59,00:27:01.68,97175,97300,put cover,put,1,cover,89,['cover'],[89]
+P10_03_202,P10,P10_03,00:27:07.710,00:27:04.95,00:27:06.58,97497,97594,remove water from bowl,remove-from,12,water,27,"['water', 'bowl:glass']","[27, 7]"
+P10_03_203,P10,P10_03,00:27:10.549,00:27:07.57,00:27:11.23,97654,97873,put tofu into bowl,put-into,5,curd:cooked:bean,81,"['curd:cooked:bean', 'bowl:glass']","[81, 7]"
+P10_03_204,P10,P10_03,00:27:20.179,00:27:18.86,00:27:19.91,98331,98394,put pot into sink,put-into,5,pot,29,"['pot', 'sink']","[29, 63]"
+P10_03_205,P10,P10_03,00:27:23.049,00:27:19.60,00:27:25.38,98376,98722,open tap and wash spoon and pot,open,3,water:tap,0,"['water:tap', 'spade:food', 'pot']","[0, 1, 29]"
+P10_03_206,P10,P10_03,00:27:35.490,00:27:33.84,00:27:38.43,99230,99505,put chopping board back into shelf,put-into,5,board,18,"['board', 'shelf:utensil']","[18, 247]"
+P10_03_207,P10,P10_03,00:27:45.250,00:27:42.89,00:27:44.96,99773,99897,open cover bowl pot,open,3,cover,89,"['cover', 'bowl', 'pot']","[89, 7, 29]"
+P10_03_208,P10,P10_03,00:27:52.060,00:27:49.26,00:27:50.78,100155,100246,put plate on surface,put-on,1,plate,2,"['plate', 'tabletop']","[2, 42]"
+P10_03_209,P10,P10_03,00:27:57.400,00:27:51.06,00:28:07.31,100263,101238,put cabbage into plate,put-into,5,cabbage:cooked,224,"['cabbage:cooked', 'plate']","[224, 2]"
+P10_03_21,P10,P10_03,00:02:18.750,00:02:17.83,00:02:20.05,8269,8403,put into slow cooker pot,put-into,5,pot,29,"['pot', 'pot:electric']","[29, 152]"
+P10_03_210,P10,P10_03,00:28:11.539,00:28:08.55,00:28:11.30,101313,101478,put pot back into sink,put,1,pot,29,"['pot', 'sink']","[29, 63]"
+P10_03_211,P10,P10_03,00:28:15.690,00:28:11.63,00:28:15.43,101497,101725,wash it with tap,wash-with,2,water:tap,0,['water:tap'],[0]
+P10_03_212,P10,P10_03,00:28:17.460,00:28:16.13,00:28:18.83,101767,101929,put plate on surface on surface,put-on,1,plate,2,"['plate', 'table', 'table:round']","[2, 42, 42]"
+P10_03_213,P10,P10_03,00:28:27.000,00:28:19.43,00:28:29.18,101965,102550,use wrap to cover food,cover,36,food,34,['food'],[34]
+P10_03_214,P10,P10_03,00:28:34.630,00:28:31.03,00:28:45.28,102661,103516,use brush to wash food,clean,2,brush,103,"['brush', 'food']","[103, 34]"
+P10_03_215,P10,P10_03,00:28:38.850,00:28:39.70,00:28:41.70,103182,103302,wash fork,clean,2,fork,14,['fork'],[14]
+P10_03_216,P10,P10_03,00:28:47.779,00:28:45.04,00:28:47.80,103502,103668,pour water,pour,9,water,27,['water'],[27]
+P10_03_217,P10,P10_03,00:28:58.740,00:28:49.03,00:29:05.06,103741,104703,wash pot and spoon again,clean,2,pot,29,"['pot', 'spade:food']","[29, 1]"
+P10_03_218,P10,P10_03,00:28:54.070,00:28:50.99,00:28:54.57,103859,104074,add washing liquid on brush,add-on,27,liquid:cleaning,22,"['liquid:cleaning', 'brusher']","[22, 103]"
+P10_03_219,P10,P10_03,00:29:02.480,00:28:57.99,00:29:08.42,104279,104905,brush pot,brush,57,pot:food,29,['pot:food'],[29]
+P10_03_22,P10,P10_03,00:02:26.940,00:02:24.64,00:02:26.86,8678,8811,add water,add,46,water:more,27,['water:more'],[27]
+P10_03_220,P10,P10_03,00:29:13.000,00:29:08.52,00:29:14.57,104911,105274,wash spoon with tap,wash-with,2,spade:food,1,"['spade:food', 'water:tap']","[1, 0]"
+P10_03_221,P10,P10_03,00:29:20.210,00:29:17.77,00:29:19.54,105466,105572,remove water,remove,12,water,27,['water'],[27]
+P10_03_222,P10,P10_03,00:29:21.210,00:29:22.95,00:29:25.48,105777,105928,check pot,check,24,pot,29,['pot'],[29]
+P10_03_223,P10,P10_03,00:29:30.990,00:29:29.01,00:29:31.51,106140,106290,put slow cooker on surface oven,put-on,1,steamer,152,"['steamer', 'top', 'oven']","[152, 42, 46]"
+P10_03_224,P10,P10_03,00:29:40.059,00:29:36.77,00:29:41.71,106606,106902,wash cover pot,clean,2,cover,89,"['cover', 'pot']","[89, 29]"
+P10_03_225,P10,P10_03,00:29:45.380,00:29:41.81,00:29:44.75,106908,107085,put cover on shelf,put-on,1,cover,89,"['cover', 'shelf:utensil']","[89, 247]"
+P10_03_226,P10,P10_03,00:29:51.260,00:29:45.55,00:29:52.30,107133,107538,brush pot,brush,57,pot,29,['pot'],[29]
+P10_03_227,P10,P10_03,00:29:59.990,00:29:49.25,00:29:52.25,107355,107535,wash pot,wash,2,pot,29,['pot'],[29]
+P10_03_228,P10,P10_03,00:30:04.299,00:29:52.97,00:30:03.93,107578,108235,wash pot,wash,2,pot,29,['pot'],[29]
+P10_03_229,P10,P10_03,00:29:54.880,00:29:53.21,00:29:58.61,107592,107916,use tap to wash pot,wash,2,water:tap,0,"['water:tap', 'pot']","[0, 29]"
+P10_03_23,P10,P10_03,00:02:36.880,00:02:34.13,00:02:35.28,9247,9316,close cover,close,4,cover,89,['cover'],[89]
+P10_03_230,P10,P10_03,00:30:08.240,00:30:02.21,00:30:08.28,108132,108496,wash brush,wash,2,brusher,103,['brusher'],[103]
+P10_03_231,P10,P10_03,00:30:09.960,00:30:08.82,00:30:09.68,108529,108580,put brush on one surface,put-on,1,brusher,103,"['brusher', 'side']","[103, 42]"
+P10_03_232,P10,P10_03,00:30:17.289,00:30:14.40,00:30:17.97,108864,109078,put pot on shelf,put-on,1,pot,29,"['pot', 'shelf:utensil']","[29, 247]"
+P10_03_233,P10,P10_03,00:30:19.850,00:30:22.30,00:30:23.89,109338,109433,put on shelf,put-on,1,shelf:utensil,247,['shelf:utensil'],[247]
+P10_03_234,P10,P10_03,00:30:27.480,00:30:24.17,00:30:27.98,109450,109678,wash hand with cloth,clean-with,2,hand,11,"['hand', 'cloth']","[11, 17]"
+P10_03_235,P10,P10_03,00:30:31.440,00:30:28.71,00:30:31.04,109722,109862,put cloth on one surface sink,put-on,1,cloth,17,"['cloth', 'side', 'sink']","[17, 42, 63]"
+P10_03_236,P10,P10_03,00:30:35.400,00:30:31.89,00:30:35.10,109913,110106,switch off extractor fans,switch-off,8,fan,179,['fan'],[179]
+P10_03_24,P10,P10_03,00:02:39.240,00:02:35.49,00:02:40.59,9329,9635,switch on slow cooker,switch-on,6,cooker:electric,152,['cooker:electric'],[152]
+P10_03_25,P10,P10_03,00:02:47.230,00:02:46.15,00:02:51.56,9969,10293,add water into jug,add-into,46,filter:more:water,66,['filter:more:water'],[66]
+P10_03_26,P10,P10_03,00:02:59.890,00:02:58.54,00:03:00.12,10712,10807,switch on light and extractor fans,switch-on,6,light,114,"['light', 'fan']","[114, 179]"
+P10_03_27,P10,P10_03,00:03:05.590,00:03:01.04,00:03:05.78,10862,11146,put chopping board on surface,put-on,1,board,18,"['board', 'table']","[18, 42]"
+P10_03_28,P10,P10_03,00:03:13.760,00:03:12.81,00:03:15.87,11568,11752,use knife to cut open clothes cabbage,cut,7,knife,4,"['knife', 'clothes', 'cab']","[4, 73, 224]"
+P10_03_29,P10,P10_03,00:03:22.870,00:03:17.11,00:03:24.63,11826,12277,remove cover,remove,12,cover,89,['cover'],[89]
+P10_03_3,P10,P10_03,00:00:19.500,00:00:17.87,00:00:19.12,1072,1147,switch on light,switch-on,6,light,114,['light'],[114]
+P10_03_30,P10,P10_03,00:03:29.830,00:03:27.75,00:03:42.83,12465,13369,use knife to cut to remove skin cabbage,cut,7,knife,4,"['knife', 'skin:dirty', 'cabbage']","[4, 48, 224]"
+P10_03_31,P10,P10_03,00:03:47.870,00:03:39.10,00:03:48.48,13146,13708,remove skin cabbage,remove,12,skin,48,"['skin', 'cabbage']","[48, 224]"
+P10_03_32,P10,P10_03,00:03:57.960,00:03:54.13,00:03:57.28,14047,14236,take plate,grab,0,plate,2,['plate'],[2]
+P10_03_33,P10,P10_03,,00:03:57.38,00:04:02.13,14242,14527,take bowl,grab,0,bowl:glass,7,['bowl:glass'],[7]
+P10_03_34,P10,P10_03,00:04:09.290,00:04:07.40,00:04:33.45,14844,16407,peel off leafs cabbage,peel-off,19,leaf,62,"['leaf', 'cabbage']","[62, 224]"
+P10_03_35,P10,P10_03,,00:04:13.89,00:04:14.59,15233,15275,put them inside bowl,put-inside,5,bowl:glass,7,['bowl:glass'],[7]
+P10_03_36,P10,P10_03,00:04:51.910,00:04:14.69,00:04:23.20,15281,15792,peel off cabbage,peel-off,19,cabbage,224,['cabbage'],[224]
+P10_03_37,P10,P10_03,00:05:02.530,00:04:23.30,00:04:42.28,15798,16936,peel off cabbage,peel-off,19,cabbage,224,['cabbage'],[224]
+P10_03_38,P10,P10_03,00:06:00.250,00:05:56.63,00:06:00.47,21397,21628,put cabbage in boxes,put-in,5,cabbage,224,"['cabbage', 'box']","[224, 23]"
+P10_03_39,P10,P10_03,00:06:05.610,00:06:03.58,00:06:06.12,21814,21967,add water into bowl,add-into,46,water,27,"['water', 'table:glass']","[27, 7]"
+P10_03_4,P10,P10_03,00:00:30.499,00:00:28.45,00:00:29.67,1707,1780,take pot,grab,0,pot,29,['pot'],[29]
+P10_03_40,P10,P10_03,00:06:09.419,00:06:06.56,00:06:10.26,21993,22215,use knife to remove skin from,remove-from,12,knife,4,"['knife', 'skin']","[4, 48]"
+P10_03_41,P10,P10_03,00:06:16.470,00:06:11.27,00:06:21.59,22276,22895,wash cabbage,wash,2,cabbage,224,['cabbage'],[224]
+P10_03_42,P10,P10_03,00:06:35.669,00:06:32.95,00:06:43.27,23577,24196,wash vegetable,wash,2,vegetable,94,['vegetable'],[94]
+P10_03_43,P10,P10_03,00:06:44.840,00:06:43.38,00:06:44.05,24202,24243,switch off tap,switch-off,8,tap:water,0,['tap:water'],[0]
+P10_03_44,P10,P10_03,00:06:52.470,00:06:48.42,00:06:52.89,24505,24773,remove water,remove,12,water,27,['water'],[27]
+P10_03_45,P10,P10_03,00:06:53.640,00:06:53.23,00:06:57.39,24793,25043,gather cabbage,collect,63,cabbage,224,['cabbage'],[224]
+P10_03_46,P10,P10_03,00:07:00.270,00:06:57.07,00:06:59.99,25024,25199,wash it water,wash,2,water,27,['water'],[27]
+P10_03_47,P10,P10_03,00:07:01.270,00:07:00.09,00:07:01.91,25205,25314,put it into bowl,put-into,5,bowl:glass,7,['bowl:glass'],[7]
+P10_03_48,P10,P10_03,00:07:05.960,00:07:01.77,00:07:05.32,25306,25519,put bowl on surface,put-on,1,bowl:glass,7,"['bowl:glass', 'table']","[7, 42]"
+P10_03_49,P10,P10_03,00:07:09.970,00:07:07.80,00:07:08.99,25668,25739,open fridge,open,3,refrigerator,12,['refrigerator'],[12]
 P10_03_5,P10,P10_03,00:00:33.430,00:00:29.41,00:00:36.35,1764,2181,pour water,pour,9,water,27,['water'],[27]
-P10_03_50,P10,P10_03,00:07:22.320,00:07:08.76,00:07:11.72,25725,25903,get some shrimp,get,0,shrimp,253,['shrimp'],[253]
-P10_03_51,P10,P10_03,00:07:25.419,00:07:11.82,00:07:21.16,25909,26469,get another bowl,get,0,bowl,7,['bowl'],[7]
-P10_03_52,P10,P10_03,00:07:31.710,00:07:30.10,00:07:34.42,27006,27265,put the frozen shrimp inside the bowl,put-inside,5,shrimp:frozen,253,"['shrimp:frozen', 'bowl']","[253, 7]"
-P10_03_53,P10,P10_03,00:07:49.260,00:07:37.38,00:07:47.71,27442,28062,throw the rest away,throw,13,rest,109,['rest'],[109]
-P10_03_54,P10,P10_03,00:07:52.690,00:07:47.13,00:07:48.51,28027,28110,put them into the dustbin,put-into,5,dustbin,36,['dustbin'],[36]
-P10_03_55,P10,P10_03,00:07:55.820,00:07:49.64,00:07:56.44,28178,28586,wash the shrimp,wash,2,shrimp,253,['shrimp'],[253]
-P10_03_56,P10,P10_03,00:08:06.509,00:08:04.11,00:08:07.20,29046,29232,open the refrigerator,open,3,refrigerator,12,['refrigerator'],[12]
-P10_03_57,P10,P10_03,00:08:09.110,00:08:06.17,00:08:08.27,29170,29296,get some leek,get,0,leek,117,['leek'],[117]
-P10_03_58,P10,P10_03,00:08:13.979,00:08:09.59,00:08:13.67,29375,29620,open the plastic bag,open,3,bag:plastic,19,['bag:plastic'],[19]
-P10_03_59,P10,P10_03,00:08:17.040,00:08:13.77,00:08:15.85,29626,29751,get chinese spring onion,get,0,onion:spring,128,['onion:spring'],[128]
-P10_03_6,P10,P10_03,00:00:34.430,00:00:36.86,00:00:42.91,2211,2574,wash the pot,wash,2,pot,29,['pot'],[29]
-P10_03_60,P10,P10_03,00:08:24.120,00:08:15.95,00:08:25.08,29757,30304,seal the plastic bag,seal,36,bag:plastic,19,['bag:plastic'],[19]
-P10_03_61,P10,P10_03,00:08:27.020,00:08:25.18,00:08:31.70,30310,30702,put them back into the refrigerator,put-into,5,refrigerator,12,['refrigerator'],[12]
-P10_03_62,P10,P10_03,00:08:33.050,00:08:31.77,00:08:32.57,30706,30754,close the door of the refrigerator,close,4,door,3,"['door', 'refrigerator']","[3, 12]"
-P10_03_63,P10,P10_03,00:08:37.329,00:08:35.59,00:08:43.00,30935,31380,wash the onion,wash,2,onion,16,['onion'],[16]
-P10_03_64,P10,P10_03,00:08:46.360,00:08:44.50,00:08:46.14,31470,31568,switch off the water tap,switch-off,8,tap:water,0,['tap:water'],[0]
-P10_03_65,P10,P10_03,00:08:50.100,00:08:46.24,00:08:49.69,31574,31781,get a knife,get,0,knife,4,['knife'],[4]
-P10_03_66,P10,P10_03,00:08:54.170,00:08:52.53,00:08:54.87,31951,32092,wash the knife,wash,2,knife,4,['knife'],[4]
-P10_03_67,P10,P10_03,00:08:56.700,00:08:54.97,00:09:00.67,32098,32440,use the brush to brush the knife,brush,57,knife,4,['knife'],[4]
-P10_03_68,P10,P10_03,00:09:01.710,00:08:59.82,00:09:01.03,32389,32461,switch off the water tap,switch-off,8,tap:water,0,['tap:water'],[0]
-P10_03_69,P10,P10_03,00:09:06.800,00:09:05.42,00:09:10.40,32725,33024,cut the onion,cut,7,onion,16,['onion'],[16]
-P10_03_7,P10,P10_03,00:00:48.610,00:00:44.00,00:00:48.97,2640,2938,put more water into the pot,put-into,5,water:more,27,"['water:more', 'pot']","[27, 29]"
-P10_03_70,P10,P10_03,00:09:16.170,00:09:11.59,00:09:12.40,33095,33144,cut the onion,cut,7,onion,16,['onion'],[16]
-P10_03_71,P10,P10_03,00:09:17.170,00:09:15.35,00:09:22.27,33321,33736,cut the onion,cut,7,onion,16,['onion'],[16]
-P10_03_72,P10,P10_03,00:09:25.720,00:09:16.09,00:09:29.62,33365,34177,cut the onion into small pieces,cut-into,7,onion,16,['onion'],[16]
-P10_03_73,P10,P10_03,00:09:39.310,00:09:38.35,00:09:39.23,34701,34753,get some ginger,get,0,ginger,131,['ginger'],[131]
-P10_03_74,P10,P10_03,00:09:41.640,00:09:39.99,00:09:42.55,34799,34953,wash the ginger,wash,2,ginger,131,['ginger'],[131]
-P10_03_75,P10,P10_03,00:09:47.440,00:09:45.64,00:09:50.88,35138,35452,cut the ginger into small pieces,cut-into,7,ginger,131,['ginger'],[131]
-P10_03_76,P10,P10_03,00:09:57.020,00:09:50.88,00:10:05.88,35452,36352,cut the ginger into small pieces,cut-into,7,ginger,131,['ginger'],[131]
-P10_03_77,P10,P10_03,00:10:07.950,00:10:06.40,00:10:13.67,36384,36820,mix the onion and ginger and cut them into even smaller pieces,mix,10,onion,16,"['onion', 'ginger']","[16, 131]"
-P10_03_78,P10,P10_03,00:10:20.860,00:10:27.01,00:10:28.11,37620,37686,put the onion and ginger into the plastic bag,put-into,5,onion,16,"['onion', 'ginger', 'bag:plastic']","[16, 131, 19]"
-P10_03_79,P10,P10_03,00:10:28.790,00:10:28.56,00:10:33.54,37713,38012,seal the plastic bag with rubber,seal-with,36,bag:plastic,19,"['bag:plastic', 'rubber']","[19, 269]"
-P10_03_8,P10,P10_03,00:00:39.020,00:00:45.52,00:00:50.83,2731,3049,clean the pot,clean,2,pot,29,['pot'],[29]
-P10_03_80,P10,P10_03,00:10:38.160,00:10:36.14,00:10:41.05,38168,38463,get a bottle from the refrigerator,get,0,bottle,15,"['bottle', 'refrigerator']","[15, 12]"
-P10_03_81,P10,P10_03,00:10:46.440,00:10:45.05,00:10:48.06,38703,38883,open the lid of the bottle,open,3,lid,6,"['lid', 'bottle']","[6, 15]"
-P10_03_82,P10,P10_03,00:10:52.620,00:10:51.94,00:11:00.37,39116,39622,get some salted chilli pepper,get,0,pepper:salted:chilli,69,['pepper:salted:chilli'],[69]
-P10_03_83,P10,P10_03,00:11:03.260,00:11:00.48,00:11:07.90,39628,40074,close the lid,close,4,lid,6,['lid'],[6]
-P10_03_84,P10,P10_03,00:11:11.020,00:11:06.38,00:11:14.64,39982,40478,put it back into the refrigerator,put-into,5,refrigerator,12,['refrigerator'],[12]
-P10_03_85,P10,P10_03,00:11:22.420,00:11:20.70,00:11:34.54,40842,41672,cut the chilli pepper into small pieces,cut-into,7,pepper:chilli,69,['pepper:chilli'],[69]
-P10_03_86,P10,P10_03,00:11:43.980,00:11:37.10,00:11:51.26,41826,42675,open the bean curd,open,3,curd:bean,81,['curd:bean'],[81]
-P10_03_88,P10,P10_03,00:11:56.459,00:11:52.58,00:11:59.15,42754,43149,remove the water from the bean curd boxes,remove-from,12,water,27,"['water', 'box:bean:curd']","[27, 23]"
-P10_03_89,P10,P10_03,00:12:02.380,00:12:00.55,00:12:05.71,43233,43542,put the cover on the table,put-on,1,cover,89,"['cover', 'table']","[89, 42]"
-P10_03_9,P10,P10_03,00:00:52.130,00:00:49.69,00:00:50.55,2981,3033,pour the pot,pour,9,pot,29,['pot'],[29]
-P10_03_90,P10,P10_03,00:12:12.200,00:12:03.46,00:12:09.59,43407,43775,get some space on the cutting board,get,0,board:cutting,18,['board:cutting'],[18]
-P10_03_91,P10,P10_03,00:12:14.399,00:12:13.99,00:12:24.03,44039,44641,cut the bean curd into small boxes,cut-into,7,curd:bean,81,"['curd:bean', 'box:small']","[81, 23]"
-P10_03_92,P10,P10_03,00:12:32.080,00:12:23.91,00:12:33.12,44634,45187,cut the bean curd into small boxes,cut-into,7,curd:bean,81,"['curd:bean', 'box:small']","[81, 23]"
-P10_03_93,P10,P10_03,00:12:25.940,00:12:33.94,00:12:44.60,45236,45876,cut the bean curd into small boxes,cut-into,7,curd:bean,81,"['curd:bean', 'box:small']","[81, 23]"
-P10_03_94,P10,P10_03,00:13:07.740,00:12:47.86,00:13:14.72,46071,47683,cut the bean curd into small cubes,cut-into,7,curd:bean,81,"['curd:bean', 'cube:small']","[81, 95]"
-P10_03_95,P10,P10_03,00:13:20.720,00:13:18.79,00:13:21.25,47927,48075,wash the knife,wash,2,knife,4,['knife'],[4]
-P10_03_96,P10,P10_03,00:13:22.529,00:13:21.46,00:13:23.95,48087,48237,put the knife back into the shelf,put-into,5,knife,4,"['knife', 'shelf']","[4, 247]"
-P10_03_98,P10,P10_03,00:13:35.620,00:13:25.00,00:13:39.28,48300,49156,wash the shrimp,wash,2,shrimp,253,['shrimp'],[253]
-P10_03_99,P10,P10_03,00:13:39.980,00:13:37.01,00:13:39.11,49020,49146,put the water into the shrimp,put-into,5,water,27,"['water', 'shrimp']","[27, 253]"
+P10_03_50,P10,P10_03,00:07:22.320,00:07:08.76,00:07:11.72,25725,25903,take shrimp,get,0,shrimp,253,['shrimp'],[253]
+P10_03_51,P10,P10_03,00:07:25.419,00:07:11.82,00:07:21.16,25909,26469,take bowl,get,0,bowl,7,['bowl'],[7]
+P10_03_52,P10,P10_03,00:07:31.710,00:07:30.10,00:07:34.42,27006,27265,put shrimp inside bowl,put-inside,5,shrimp:frozen,253,"['shrimp:frozen', 'bowl']","[253, 7]"
+P10_03_53,P10,P10_03,00:07:49.260,00:07:37.38,00:07:47.71,27442,28062,throw rest away,throw,13,rest,109,['rest'],[109]
+P10_03_54,P10,P10_03,00:07:52.690,00:07:47.13,00:07:48.51,28027,28110,put them into bin,put-into,5,dustbin,36,['dustbin'],[36]
+P10_03_55,P10,P10_03,00:07:55.820,00:07:49.64,00:07:56.44,28178,28586,wash shrimp,wash,2,shrimp,253,['shrimp'],[253]
+P10_03_56,P10,P10_03,00:08:06.509,00:08:04.11,00:08:07.20,29046,29232,open fridge,open,3,refrigerator,12,['refrigerator'],[12]
+P10_03_57,P10,P10_03,00:08:09.110,00:08:06.17,00:08:08.27,29170,29296,take leek,get,0,leek,117,['leek'],[117]
+P10_03_58,P10,P10_03,00:08:13.979,00:08:09.59,00:08:13.67,29375,29620,open bag,open,3,bag:plastic,19,['bag:plastic'],[19]
+P10_03_59,P10,P10_03,00:08:17.040,00:08:13.77,00:08:15.85,29626,29751,take chinese spring onion,get,0,onion:spring,128,['onion:spring'],[128]
+P10_03_6,P10,P10_03,00:00:34.430,00:00:36.86,00:00:42.91,2211,2574,wash pot,wash,2,pot,29,['pot'],[29]
+P10_03_60,P10,P10_03,00:08:24.120,00:08:15.95,00:08:25.08,29757,30304,wrap bag,seal,36,bag:plastic,19,['bag:plastic'],[19]
+P10_03_61,P10,P10_03,00:08:27.020,00:08:25.18,00:08:31.70,30310,30702,put them back into fridge,put-into,5,refrigerator,12,['refrigerator'],[12]
+P10_03_62,P10,P10_03,00:08:33.050,00:08:31.77,00:08:32.57,30706,30754,close cupboard fridge,close,4,door,3,"['door', 'refrigerator']","[3, 12]"
+P10_03_63,P10,P10_03,00:08:37.329,00:08:35.59,00:08:43.00,30935,31380,wash onion,wash,2,onion,16,['onion'],[16]
+P10_03_64,P10,P10_03,00:08:46.360,00:08:44.50,00:08:46.14,31470,31568,switch off tap,switch-off,8,tap:water,0,['tap:water'],[0]
+P10_03_65,P10,P10_03,00:08:50.100,00:08:46.24,00:08:49.69,31574,31781,take knife,get,0,knife,4,['knife'],[4]
+P10_03_66,P10,P10_03,00:08:54.170,00:08:52.53,00:08:54.87,31951,32092,wash knife,wash,2,knife,4,['knife'],[4]
+P10_03_67,P10,P10_03,00:08:56.700,00:08:54.97,00:09:00.67,32098,32440,use brush to brush knife,brush,57,knife,4,['knife'],[4]
+P10_03_68,P10,P10_03,00:09:01.710,00:08:59.82,00:09:01.03,32389,32461,switch off tap,switch-off,8,tap:water,0,['tap:water'],[0]
+P10_03_69,P10,P10_03,00:09:06.800,00:09:05.42,00:09:10.40,32725,33024,cut onion,cut,7,onion,16,['onion'],[16]
+P10_03_7,P10,P10_03,00:00:48.610,00:00:44.00,00:00:48.97,2640,2938,put water into pot,put-into,5,water:more,27,"['water:more', 'pot']","[27, 29]"
+P10_03_70,P10,P10_03,00:09:16.170,00:09:11.59,00:09:12.40,33095,33144,cut onion,cut,7,onion,16,['onion'],[16]
+P10_03_71,P10,P10_03,00:09:17.170,00:09:15.35,00:09:22.27,33321,33736,cut onion,cut,7,onion,16,['onion'],[16]
+P10_03_72,P10,P10_03,00:09:25.720,00:09:16.09,00:09:29.62,33365,34177,cut into onion small pieces,cut-into,7,onion,16,['onion'],[16]
+P10_03_73,P10,P10_03,00:09:39.310,00:09:38.35,00:09:39.23,34701,34753,take ginger,get,0,ginger,131,['ginger'],[131]
+P10_03_74,P10,P10_03,00:09:41.640,00:09:39.99,00:09:42.55,34799,34953,wash ginger,wash,2,ginger,131,['ginger'],[131]
+P10_03_75,P10,P10_03,00:09:47.440,00:09:45.64,00:09:50.88,35138,35452,cut into ginger small pieces,cut-into,7,ginger,131,['ginger'],[131]
+P10_03_76,P10,P10_03,00:09:57.020,00:09:50.88,00:10:05.88,35452,36352,cut into ginger small pieces,cut-into,7,ginger,131,['ginger'],[131]
+P10_03_77,P10,P10_03,00:10:07.950,00:10:06.40,00:10:13.67,36384,36820,mix onion and ginger and cut them into even smaller pieces,mix,10,onion,16,"['onion', 'ginger']","[16, 131]"
+P10_03_78,P10,P10_03,00:10:20.860,00:10:27.01,00:10:28.11,37620,37686,put onion and ginger into bag,put-into,5,onion,16,"['onion', 'ginger', 'bag:plastic']","[16, 131, 19]"
+P10_03_79,P10,P10_03,00:10:28.790,00:10:28.56,00:10:33.54,37713,38012,wrap bag with rubber,seal-with,36,bag:plastic,19,"['bag:plastic', 'rubber']","[19, 269]"
+P10_03_8,P10,P10_03,00:00:39.020,00:00:45.52,00:00:50.83,2731,3049,wash pot,clean,2,pot,29,['pot'],[29]
+P10_03_80,P10,P10_03,00:10:38.160,00:10:36.14,00:10:41.05,38168,38463,take bottle from fridge,get,0,bottle,15,"['bottle', 'refrigerator']","[15, 12]"
+P10_03_81,P10,P10_03,00:10:46.440,00:10:45.05,00:10:48.06,38703,38883,open lid bottle,open,3,lid,6,"['lid', 'bottle']","[6, 15]"
+P10_03_82,P10,P10_03,00:10:52.620,00:10:51.94,00:11:00.37,39116,39622,take chilli,get,0,pepper:salted:chilli,69,['pepper:salted:chilli'],[69]
+P10_03_83,P10,P10_03,00:11:03.260,00:11:00.48,00:11:07.90,39628,40074,close lid,close,4,lid,6,['lid'],[6]
+P10_03_84,P10,P10_03,00:11:11.020,00:11:06.38,00:11:14.64,39982,40478,put it back into fridge,put-into,5,refrigerator,12,['refrigerator'],[12]
+P10_03_85,P10,P10_03,00:11:22.420,00:11:20.70,00:11:34.54,40842,41672,cut into chilli small pieces,cut-into,7,pepper:chilli,69,['pepper:chilli'],[69]
+P10_03_86,P10,P10_03,00:11:43.980,00:11:37.10,00:11:51.26,41826,42675,open tofu,open,3,curd:bean,81,['curd:bean'],[81]
+P10_03_88,P10,P10_03,00:11:56.459,00:11:52.58,00:11:59.15,42754,43149,remove water from boxes,remove-from,12,water,27,"['water', 'box:bean:curd']","[27, 23]"
+P10_03_89,P10,P10_03,00:12:02.380,00:12:00.55,00:12:05.71,43233,43542,put cover on surface,put-on,1,cover,89,"['cover', 'table']","[89, 42]"
+P10_03_9,P10,P10_03,00:00:52.130,00:00:49.69,00:00:50.55,2981,3033,pour pot,pour,9,pot,29,['pot'],[29]
+P10_03_90,P10,P10_03,00:12:12.200,00:12:03.46,00:12:09.59,43407,43775,take space on chopping board,get,0,board:cutting,18,['board:cutting'],[18]
+P10_03_91,P10,P10_03,00:12:14.399,00:12:13.99,00:12:24.03,44039,44641,cut tofu into boxes,cut-into,7,curd:bean,81,"['curd:bean', 'box:small']","[81, 23]"
+P10_03_92,P10,P10_03,00:12:32.080,00:12:23.91,00:12:33.12,44634,45187,cut tofu into boxes,cut-into,7,curd:bean,81,"['curd:bean', 'box:small']","[81, 23]"
+P10_03_93,P10,P10_03,00:12:25.940,00:12:33.94,00:12:44.60,45236,45876,cut tofu into boxes,cut-into,7,curd:bean,81,"['curd:bean', 'box:small']","[81, 23]"
+P10_03_94,P10,P10_03,00:13:07.740,00:12:47.86,00:13:14.72,46071,47683,cut tofu into stocks,cut-into,7,curd:bean,81,"['curd:bean', 'cube:small']","[81, 95]"
+P10_03_95,P10,P10_03,00:13:20.720,00:13:18.79,00:13:21.25,47927,48075,wash knife,wash,2,knife,4,['knife'],[4]
+P10_03_96,P10,P10_03,00:13:22.529,00:13:21.46,00:13:23.95,48087,48237,put knife back into shelf,put-into,5,knife,4,"['knife', 'shelf']","[4, 247]"
+P10_03_98,P10,P10_03,00:13:35.620,00:13:25.00,00:13:39.28,48300,49156,wash shrimp,wash,2,shrimp,253,['shrimp'],[253]
+P10_03_99,P10,P10_03,00:13:39.980,00:13:37.01,00:13:39.11,49020,49146,put water into shrimp,put-into,5,water,27,"['water', 'shrimp']","[27, 253]"
 P11_17_0,P11,P11_17,00:00:01.339,00:00:01.13,00:00:02.20,67,132,open oven,open,3,oven,46,['oven'],[46]
 P11_17_1,P11,P11_17,00:00:03.919,00:00:03.56,00:00:04.98,213,298,take out gloves,take-out,12,glove,60,['glove'],[60]
 P11_17_10,P11,P11_17,00:00:20.820,00:00:20.07,00:00:21.31,1204,1278,turn off hob,turn-off,8,hob,24,['hob'],[24]
