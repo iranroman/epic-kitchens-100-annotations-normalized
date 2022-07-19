@@ -17,7 +17,7 @@ def replace_right(source, target, replacement, replacements=None):
 
 noun_classes_file = '/home/iran/train-CLIP-FT/epic-kitchens-100-annotations/EPIC_100_noun_classes.csv'
 verb_classes_file = '/home/iran/train-CLIP-FT/epic-kitchens-100-annotations/EPIC_100_verb_classes.csv'
-ann_file = '/home/iran/train-CLIP-FT/epic-kitchens-100-annotations/EPIC_100_validation.csv'
+ann_file = '/home/iran/train-CLIP-FT/epic-kitchens-100-annotations/EPIC_100_train.csv'
 
 standardize_verb = True # NOTE: without remove_continuations==True not all verbs will be standardized
 standardize_noun = True
@@ -45,6 +45,7 @@ noun_classes_dict['shaker:salt'] = noun_classes_dict.pop('cellar:salt')
 noun_classes_dict['liquid:washing'].append('liquid:washing:op') # typo not addressed by noun classes
 verb_classes_dict = get_class_dict(verb_classes_file)
 verb_classes_dict['carry'].append('bring-into')
+verb_classes_dict['use'].append('use-to')
 verb_classes_dict['drain'] = verb_classes_dict.pop('filter')
 verb_classes_dict['put'] = [*verb_classes_dict['put'],*verb_classes_dict.pop('insert')]
                      
@@ -58,7 +59,7 @@ first = int(sys.argv[1])
 
 subs_dict = {}
 # main loop
-for i, l in enumerate(annotations[first:3514],start=first):
+for i, l in enumerate(annotations[first:],start=first):
     print(i, l[2])
     print(l[8])
     l[8] = l[8].replace('.','')
@@ -83,10 +84,12 @@ for i, l in enumerate(annotations[first:3514],start=first):
     l[8] = l[8].replace('knives', 'knifes')
     l[8] = l[8].replace('blueberries', 'blueberrys')
     l[8] = l[8].replace('berries', 'berrys')
+    l[8] = l[8].replace('tomatoes', 'tomatos')
 
-    # remove slow cooker bowl and pan
+    # remove slow cooker bowl, pan, hand-held hoover
     l[8] = l[8].replace('slow cooker bowl', 'cooker bowl')
     l[8] = l[8].replace('slow cooker pan', 'cooker pan')
+    l[8] = l[8].replace('hand-held hoover', 'hoover')
 
     # remove typos
     l[8] = l[8].replace(' washing op', '')
@@ -143,6 +146,7 @@ for i, l in enumerate(annotations[first:3514],start=first):
                 l[8] = l[8].replace(raw_verb, standard_verb,1)
                 if prep=='down':
                     words = l[8].split(' ')
+                    print(words,standard_verb)
                     standard_verb_idx = words.index(standard_verb)
                     words.insert(standard_verb_idx+1,prep)
                     l[8] = ' '.join(words)
@@ -166,19 +170,19 @@ for i, l in enumerate(annotations[first:3514],start=first):
         print(subs_dict[raw_action])
         if subs_dict[raw_action] == 'blahblah add water into bowl':
             print(raw_action)
-            input()
+            #input()
         try:
             if subs_dict[raw_action] == raw_action:
                 continue
             print('\n')
-            input()
+            #input()
         except KeyboardInterrupt:
             actions = list(set(list(subs_dict.values())))
             actions.sort()
             for a in actions:
                 print(''.join([w+'\t\t' for w in a.split()]))
             print(len(set(list(subs_dict.keys()))), len(actions))
-            input()
+            #input()
     else:
         l[8] = subs_dict[l[8]]
         print(l[8]+'\n')
@@ -187,9 +191,9 @@ actions.sort()
 for a in actions:
     print(''.join([w+'\t\t' for w in a.split()]))
 print(len(set(list(subs_dict.keys()))), len(actions))
-input()
+#input()
 annotations.insert(0,header)
-with open("EPIC_100_validation_normalized.csv", "wt") as fp:
+with open("EPIC_100_train_normalized.csv", "wt") as fp:
     writer = csv.writer(fp, delimiter=",")
     writer.writerows(annotations)
 actions = list(set(list(subs_dict.values())))
